@@ -1,0 +1,28 @@
+/* src/pages/Blog.css */
+.blog-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.blog-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4a1146;
+  margin-bottom: 2rem;
+}

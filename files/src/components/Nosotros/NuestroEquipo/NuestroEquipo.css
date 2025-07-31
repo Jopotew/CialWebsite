@@ -1,0 +1,54 @@
+.nuestro-equipo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.layout-one {
+  justify-content: center;
+}
+
+.layout-one .equipo-card {
+  flex: 0 0 250px;
+}
+
+.layout-two {
+  justify-content: center;
+}
+
+.layout-two .equipo-card {
+  flex: 0 0 220px;
+}
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 👈 Cuatro columnas fijas */
+  gap: 2rem;
+  justify-items: center;
+  padding-top: 2rem;
+}
+
+/* Responsivo: 2 columnas en tablet, 1 en mobile */
+@media (max-width: 1024px) {
+  .layout-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Tamaño uniforme para todas las imágenes */
+.equipo-card img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

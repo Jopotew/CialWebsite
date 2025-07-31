@@ -1,0 +1,35 @@
+.gallery-slider {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gallery-slide p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #704688;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slider-arrow.left {
+  left: -150px;
+}
+
+.slider-arrow.right {
+  right: -150px;
+}

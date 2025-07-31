@@ -1,0 +1,54 @@
+.owner-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 2rem 25%; 
+  gap: 2rem;
+}
+
+
+.owner-text {
+  flex: 1;
+  max-width: 600px;
+  padding-left: rem;
+}
+
+.owner-name {
+  font-size: 2.5rem;
+  color: #5d2a8a;
+  margin-bottom: 0.5rem;
+}
+
+.owner-title {
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.owner-image-container {
+  flex: 0 0 auto;
+  margin-left: 2rem;
+}
+
+.owner-image {
+  width: 280px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .owner-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .owner-image-container {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .owner-image {
+    width: 200px;
+  }
+}

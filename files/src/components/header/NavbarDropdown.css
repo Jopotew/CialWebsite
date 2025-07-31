@@ -1,0 +1,60 @@
+.navbar {
+  width: 100%;
+  background-color: #ab79d7;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-logo {
+  height: 32px;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.menu-toggle svg {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  background-color: #6f2da8;
+  padding: 12px;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 150px;
+  z-index: 1000;
+  display: flex;
+
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.dropdown-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  color: #a4db3f;
+}
+
+.dropdown-menu.open {
+  max-height: 500px;
+  opacity: 1;
+}

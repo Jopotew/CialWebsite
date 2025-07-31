@@ -1,0 +1,19 @@
+/* src/pages/Noticias.css */
+.noticias-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.noticias-title {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  text-align: center;
+  color: rgb(49, 25, 71);
+}
+
+.noticias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}

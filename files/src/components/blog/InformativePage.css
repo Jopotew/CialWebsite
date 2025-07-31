@@ -1,0 +1,33 @@
+.informative-page-container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: sans-serif;
+}
+
+.informative-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.informative-header-image {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.informative-title {
+  font-size: 2rem;
+  color: #5d2a8a;
+  margin-top: 1rem;
+}
+
+.informative-content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}

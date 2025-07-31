@@ -1,0 +1,27 @@
+.hero-image-text {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* semitransparente */
+  padding: 40px 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+}
