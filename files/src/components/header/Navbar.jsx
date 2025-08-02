@@ -22,16 +22,10 @@ function Navbar() {
           onMouseEnter={() => setActiveDropdown('nosotros')}
           onMouseLeave={() => setActiveDropdown(null)}
         >
-          <Link to="/nosotros" className="navbar-link-with-caret">
-            Nosotros <span className="caret">▼</span>
+          <Link to="/equipo" className="navbar-link-with-caret">
+            Nuestro Equipo <span className="caret"></span>
           </Link>
-          {activeDropdown === 'nosotros' && (
-            <ul className="dropdown-menu">
-              <li><Link to="/nosotros">Quiénes Somos</Link></li>
-              <li><Link to="/equipo">Nuestro Equipo</Link></li>
-              <li><Link to="/lorena_valenzuela">Lorena Valenzuela</Link></li>
-            </ul>
-          )}
+        
         </li>
         <li><Link to="/noticias">Noticias</Link></li>
 
@@ -46,11 +40,11 @@ function Navbar() {
           </Link>
           {activeDropdown === 'servicios' && (
             <ul className="dropdown-menu">
-              <li><Link to="/talleres">Talleres</Link></li>
+              <li><Link to="/talleres">Talleres y Capacitaciones</Link></li>
               <li><Link to="/psicopedagogia">Psicopedagogía</Link></li>
-              <li><Link to="/audiologia">Audiologia</Link></li>
+              <li><Link to="/audiologia">Audiología</Link></li>
               <li><Link to="/psicomotricidad">Psicomotricidad</Link></li>
-              <li><Link to="/psicologia">Psicologia</Link></li>
+              <li><Link to="/psicologia">Psicología</Link></li>
               <li><Link to="/fonoaudiologia">Fonoaudiología</Link></li>
               <li><Link to="/rehab_auditiva">Rehabilitacion Auditiva  </Link></li>
               

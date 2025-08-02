@@ -2,7 +2,7 @@ import React from 'react';
 import EquipoCard from './EquipoCard';
 import './NuestroEquipo.css';
 
-function NuestroEquipo({ members, layout }) {
+function NuestroEquipo({ members, layout, showButton, buttonLink }) {
   return (
     <section className="nuestro-equipo-container">
       {members.title && <h2 className="nuestro-equipo-title">{members.title}</h2>}
@@ -13,6 +13,8 @@ function NuestroEquipo({ members, layout }) {
             image={member.image}
             name={member.name}
             description={member.description}
+            showButton={showButton && idx === 0}
+            buttonLink={buttonLink}
           />
         ))}
       </div>
@@ -21,4 +23,3 @@ function NuestroEquipo({ members, layout }) {
 }
 
 export default NuestroEquipo;
-

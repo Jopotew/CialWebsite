@@ -1,15 +1,16 @@
 import React from 'react';
 import NuestroEquipo from '../../../components/Nosotros/NuestroEquipo/NuestroEquipo';
 
-import persona1 from '../../../assets/cial_logo.png';
+
 import adriana from '../../../assets/Body/Nosotros/adriana.png';
 import ana from '../../../assets/Body/Nosotros/ana.png';
 import belen from '../../../assets/Body/Nosotros/belen.png';
 import gimena from '../../../assets/Body/Nosotros/gimena.png';
-import maria_sol from '../../../assets/Body/Nosotros/maria_sol.png';
+import maria_sol from '../../../assets/Body/Nosotros/maria_sol.jpg';
 import nati from '../../../assets/Body/Nosotros/nati.png';
 import juliana from '../../../assets/Body/Nosotros/juliana.png';
 import eva from '../../../assets/Body/Nosotros/eva.png';
+import lorena from '../../../assets/Body/Nosotros/lorena.jpg';
 
 
 
@@ -17,9 +18,9 @@ import eva from '../../../assets/Body/Nosotros/eva.png';
 const miembros = [
   {
     title: "NUESTRO EQUIPO",
-    image: persona1,
-    name: 'Maria Lorena Valenzuela',
-    description: 'Especialista en Apraxia y Trastornos del Lenguaje. Fundadora de CIAL.',
+    image: lorena,
+    name: 'Lic. María Lorena Valenzuela',
+    description: 'LSLS Cert. AVT - Fonoaudióloga - Prof. Para sordos - Prompt Bridging Trained - Especialista en CAA',
   },
   {
     image: adriana,
@@ -28,18 +29,18 @@ const miembros = [
   },
   {
     image: maria_sol,
-    name: 'Lic. María sol Trasarti',
-    description: 'Fonoaudiologa- Audiologa',
+    name: 'Lic. María Sol Trasarti',
+    description: 'Fonoaudióloga - Audióloga',
   },
   {
     image: ana,
-    name: 'Lic Ana Swchab.',
-    description: 'Fonoaudiologa- Prompt Bridging Trained - Especialista en CAA',
+    name: 'Lic. Ana Swchab.',
+    description: 'Fonoaudióloga - Prompt Bridging Trained - Especialista en CAA',
   },
   {
     image: belen,
     name: 'Lic. Belén Montecino ',
-    description: 'Fonoaudiologa - Audiologa',
+    description: 'Fonoaudióloga  - Audióloga ',
   },
   {
     image: eva,
@@ -68,14 +69,25 @@ const miembros = [
 function Equipo() {
   return (
     <div>
-      {/* Primera fila: 1 miembro */}
-      <NuestroEquipo members={miembros.slice(0, 1)} layout="one" />
+      <NuestroEquipo 
+        members={miembros.slice(0, 1)} 
+        layout="one" 
+        showButton={true} 
+        buttonLink="/lorena_valenzuela" 
+      />
 
-      {/* Segunda fila: 4 miembros */}
-      <NuestroEquipo members={miembros.slice(1, 5)} layout="four" />
+      <NuestroEquipo 
+        members={miembros.slice(1, 5)} 
+        layout="four" 
+        showButton={false}
+      />
 
-      {/* Tercera fila: 4 miembros restantes */}
-      <NuestroEquipo members={miembros.slice(5, 9)} layout="four" />
+      <NuestroEquipo 
+        members={miembros.slice(5, 9)} 
+        layout="four" 
+        showButton={false}
+      />
+
     </div>
   );
 }

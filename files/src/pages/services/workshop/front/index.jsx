@@ -6,11 +6,11 @@ import profesionalesImage from '../../../../assets/Body/Inicio/21.jpeg';
 function Talleres() {
   return (
     <div className="talleres-container">
-      <h1>Talleres</h1>
+      <h1>Talleres y Capacitaciones</h1>
       <div className="talleres-cards">
         <TallerCard 
-          title="Talleres para Padres"
-          description="Espacios diseñados para acompañar a padres en la crianza y educación de sus hijos."
+          title="Talleres para Familias"
+          description="Espacios diseñados para acompañar a familias en la crianza y educación de sus hijos."
           image={padresImage}
           link="/talleres/padres"
         />

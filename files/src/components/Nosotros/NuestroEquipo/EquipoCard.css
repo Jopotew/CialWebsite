@@ -12,6 +12,7 @@
 
 .equipo-card-name {
   margin-top: 0.5rem;
+  margin-bottom: 0rem; /* Agregá esta línea */
   font-size: 1.2rem;
   font-weight: 700;
   color: #5d2a8a;
@@ -20,5 +21,24 @@
 .equipo-card-desc {
   font-size: 0.9rem;
   color: #333;
-  margin-top: 0.4rem;
+  margin-top: 0.05rem; /* Reducilo si ya está */
+}
+
+
+.equipo-card-button-link {
+  text-decoration: none;
+}
+
+.equipo-card-name-button {
+  color: #5d2a8a;
+  background-color: #a4db3f00;
+  margin-top: 0.05rem; /* Reducilo si ya está */
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.equipo-card-name-button:hover {
+  background-color: #90c93400;
 }

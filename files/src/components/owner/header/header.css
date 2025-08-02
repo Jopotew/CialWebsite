@@ -26,11 +26,11 @@
 
 .owner-image-container {
   flex: 0 0 auto;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 
 .owner-image {
-  width: 280px;
+  width: 400px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;

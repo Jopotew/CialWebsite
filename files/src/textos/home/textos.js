@@ -10,8 +10,8 @@ export const textos = {
   nuestro_equipo:{
     titulo: "Nuestro Equipo",
     parrafos: [
-      "En CIAL contamos con un equipo altamente especializado en Audiología, Fonoaudiología, Psicología, Psicopedagogía y Psicomotricidad. Abordamos cada caso desde una perspectiva transdisciplinaria, articulando saberes y experiencias para diseñar intervenciones personalizadas, sensibles a las necesidades reales de cada persona y su entorno.",
-      "Creemos que las mejores intervenciones se construyen en alianza con las familias. Por eso, diseñamos cada plan terapéutico junto a quienes acompañan día a día el crecimiento del niño o la niña, integrando sus prioridades, sus experiencias y sus posibilidades reales. Nuestro trabajo parte siempre de una escucha atenta, del respeto por los tiempos individuales y de la confianza en los vínculos como motor del desarrollo.."
+      " \n En CIAL contamos con un equipo altamente especializado en Audiología, Fonoaudiología, Psicología, Psicopedagogía y Psicomotricidad. Abordamos cada caso desde una perspectiva transdisciplinaria, articulando saberes y experiencias para diseñar intervenciones personalizadas, sensibles a las necesidades reales de cada persona y su entorno.",
+      "   Creemos que las mejores intervenciones se construyen en alianza con las familias. Por eso, diseñamos cada plan terapéutico junto a quienes acompañan día a día el crecimiento del niño o la niña, integrando sus prioridades, sus experiencias y sus posibilidades reales. Nuestro trabajo parte siempre de una escucha atenta, del respeto por los tiempos individuales y de la confianza en los vínculos como motor del desarrollo.."
     ]
 
     

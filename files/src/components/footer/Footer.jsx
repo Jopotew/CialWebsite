@@ -16,7 +16,7 @@ function Footer() {
         </div>
 
         <div className="footer-center">
-          <p className="footer-phrase">“Escuchar nos hace bien.”</p>
+          <p className="footer-phrase">“#EscucharNosHaceBien.”</p>
           <img src={logo} alt="Logo CIAL" className="footer-logo-center" />
           <div className="footer-middle">
             <p>Luis Toschi 258, Cipolletti, Río Negro</p>

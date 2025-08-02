@@ -28,21 +28,27 @@ import { textos } from '../../textos/home/textos';
 const heroSlides = [
   {
     image: slide1,
-    title: 'Centro Integral de Audicion y Lenguaje',
+    title: 'Screening auditivo',
     text: 'Somos un equipo interdisciplinario con raíces patagónicas y más de veinte años de trayectoria',
     link: '/nosotros',
     showButton: true
   },
   {
     image: slide2,
-    title: 'Terapias adaptadas a cada etapa',
-    text: 'Individualizamos cada proceso para lograr los mejores resultados.',
+    title: 'Asesorías y supervisiones',
+    text: 'Un espacio pensado para impulsar tu desarrollo profesional, brindando una formacion integral y de alta calidad.',
     link: '#inicio',
     showButton: false
   },
   {
     image: slide3,
-    title: 'Talleres disponibles!',
+    title: 'Calibración de audifonos, implantes cocleares y sistemas osteointegrados',
+    text: 'Revisa nuestros talleres para padres y profesionales.',
+    link: '/talleres'
+  }, 
+  {
+    image: slide3,
+    title: 'Ca',
     text: 'Revisa nuestros talleres para padres y profesionales.',
     link: '/talleres'
   }
@@ -81,16 +87,16 @@ function Home() {
           title={"Conoce sobre algunos de nuestros servicios"}
           items={[
             {
-              title: 'Fonoaudiologia',
+              title: 'Audiología',
               image: double_image_block1,
               text: 'Acompañamos el desarrollo de la comunicación, el habla y el lenguaje desde una perspectiva integral, contemplando la singularidad de cada niño, niña o adolescente y reconociendo la diversidad de formas en las que las personas se comunican.',
-              link: '/fonoaudiologia',
+              link: '/audiologia',
             },
             {
-              title: 'Psicomotricidad',
+              title: 'Fonoaudiología',
               image: double_image_block2,
               text: 'Promovemos la exploración activa del entorno, el desarrollo de la atención, la comunicación y las actitudes emocionales que favorecen la autonomía, el juego compartido y los procesos de pensamiento.',
-              link: '/psicomotricidad',
+              link: '/fonoaudiologia',
             },
           ]}
         />
@@ -100,7 +106,7 @@ function Home() {
         <ServicesCards
           services={[
             {
-              title: "Talleres para todos!",
+              title: "Cursos y talleres de capacitación",
               image: service1,
               text: "Proporcionamos talleres didacticos para profesionales y para los padres que necesiten.",
               link: "/talleres"
