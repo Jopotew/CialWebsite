@@ -111,7 +111,7 @@ function Home() {
             {
               title: "Cursos y talleres de capacitación",
               image: service1,
-              text: "Proporcionamos talleres didacticos para profesionales y para los padres que necesiten.",
+              text: "Proporcionamos talleres didacticos para profesionales y para las familias que necesiten.",
               link: "/talleres"
             },
             {
@@ -123,7 +123,7 @@ function Home() {
             {
               title: "Nuestro Blog",
               image: service3,
-              text: "Compartimos recursos educativos, estrategias y experiencias sobre tratamientos para niños con dificultades del habla.",
+              text: "Compartimos recursos educativos, estrategias y experiencias.",
               link: "/blog"
             }
           ]}
