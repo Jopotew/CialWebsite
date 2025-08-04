@@ -12,12 +12,21 @@
 }
 
 .blog-entry-image {
-  max-width: 350px;
+  max-width: 250px;
   width: 100%;
   margin: 0 auto 2rem auto;
   display: block;
 }
 
+.inline-blog-image {
+  display: block;
+  margin: 24px auto;
+  max-width: 100%;
+  max-height: 60%;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
 .blog-entry-content {
   font-size: 1rem;
@@ -43,12 +52,12 @@
 .nav-button {
   padding: 8px 16px;
   background-color: #4a1146;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 4px;
 }
 
 .nav-button:hover {
-  background-color: #a4db3f;
-  color: #000;
+  background-color: #d35acb;
+  color: #ffffff;
 }

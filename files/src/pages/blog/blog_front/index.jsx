@@ -1,24 +1,17 @@
 // src/pages/Blog.jsx
 import React from 'react';
 import BlogCard from '../../../components/Blog/BlogCard';
-import blogImage1 from '../../../assets/cial_logo.png';
+import blogImage1 from '../../../assets/Body/Blog/Entry1/3.png';
 import './BlogFront.css';
 
 function Blog() {
   const blogEntries = [
     {
       image: blogImage1,
-      title: 'Descubriendo el Mundo del Desarrollo Web',
-      excerpt: 'Explora las tendencias actuales en el desarrollo web y cómo están moldeando el futuro de la tecnología.',
+      title: 'Leer antes de saber leer',
+      excerpt: 'Un viaje al mundo de la primera infancia',
       link: '/blog/1',
       date: '04 de junio de 2025',
-    },
-    {
-      image: blogImage1,
-      title: 'La Importancia del Diseño Responsivo',
-      excerpt: 'Aprende por qué el diseño responsivo es esencial en la era moderna de dispositivos móviles.',
-      link: '/blog/2',
-      date: '03 de junio de 2025',
     },
   ];
 

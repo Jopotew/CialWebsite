@@ -36,12 +36,12 @@
 .taller-info-button {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #63da6b;
+  background-color: #680b5b;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
 }
 
 .taller-info-button:hover {
-  background-color: #2a7f57;
+  background-color: #b366af;
 }

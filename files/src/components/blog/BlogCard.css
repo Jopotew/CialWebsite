@@ -35,15 +35,15 @@
 .blog-card-button {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #a4db3f;
-  color: #000;
+  background-color: #77266c;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
 }
 
 .blog-card-button:hover {
-  background-color: #8fc934;
+  background-color: #b366af;
 }
 .blog-card-divider {
   border: none;

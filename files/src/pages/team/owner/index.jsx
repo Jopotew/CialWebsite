@@ -32,22 +32,22 @@ function Owner() {
         title="Fundadora de CIAL"
         image={profileImg}
       />
-      <OwnerQuote quote="Slogan" />
+      <OwnerQuote quote="Escuchar nos hace bien" />
       <OwnerBio
         paragraphs={text.owner.paragraph}
       />
       <GallerySlider
         images={[
-          { src: gal1, caption: "CI2025 BOSTON - Conference on Cochlear Implants- Marzo 2025" },
-          { src: gal2, caption: "Junto a la Dra. Teresa Caraway, CEO de Hearing First, junto a destacados profesionales: Dr. Jace Wolfe, Ph.D., CCC-A; Tamara Elder, M.S., CCC-SLP, LSLS Cert. AVT. CI2025 BOSTON - Conference on Cochlear Implants" },
-          { src: gal3, caption: "Junto a Blair Richlin, MS, CCC-SLP / Becky Clem, MA, CCC-SLP, LSLS Cert. AVT,   CI2025 BOSTON - Conference on Cochlear Implants-" },
-          { src: gal4, caption: "Con la Dra. Teresa Caraway, CEO de Hearing First, junto a destacados profesionales: Dr. Jace Wolfe, Ph.D., CCC-A; Tamara Elder, M.S., CCC-SLP, LSLS Cert. AVT. CI2025 BOSTON - Conference on Cochlear Implants" },        
+          { src: gal1, caption: "XI Congreso Iberoamericano de implantes cocleares y ciencias afines GICCA 2025" },
+          { src: gal2, caption: "CI2025 BOSTON - Conference on Cochlear Implants- Marzo 2025." },
+          { src: gal4, caption: "Junto a Blair Richlin, MS, CCC-SLP / Becky Clem, MA, CCC-SLP, LSLS Cert. AVT,   CI2025 BOSTON - Conference on Cochlear Implants-" },
+          { src: gal3, caption: "Con la Dra. Teresa Caraway, CEO de Hearing First, junto a destacados profesionales: Dr. Jace Wolfe, Ph.D., CCC-A; Tamara Elder, M.S., CCC-SLP, LSLS Cert. AVT. CI2025 BOSTON - Conference on Cochlear Implants" },        
           { src: gal5, caption: "Jornada de Audiología, Hospital Castro Rendón, Neuquén Capital.  Junto a Lic. Karen Grill referente del programa de Hipoacusia de la Pcia. de Neuquén " },
           { src: gal6, caption: "Jornada de Audiología, Hospital Castro Rendón, Neuquén Capital.  Junto a Lic. Karen Grill referente del programa de Hipoacusia de la Pcia. de Neuquén " },
           { src: gal7, caption: "Jornada de Audiología, Hospital Castro Rendón, Neuquén Capital.  Junto a Lic. Karen Grill referente del programa de Hipoacusia de la Pcia. de Neuquén " },
-          { src: gal8, caption: "Jornadas Cientificas en Rehabilitación organaizado por Pam argentina. 20 y 21 de Marzo 2025. Colonia Uruguay" },        
-          { src: gal9, caption: "Jornadas Cientificas en Rehabilitación organaizado por Pam argentina. 20 y 21 de Marzo 2025. Colonia Uruguay" },
-          { src: gal10, caption: "Junto a Rehabilitadoras de todo el Pais en las Jornadas Cientificas en Rehabilitación. Colonia Uruguay" },
+          { src: gal8, caption: "Jornadas Científicas en Rehabilitación organizado por Pam argentina. 20 y 21 de Marzo 2025. Colonia Uruguay" },        
+          { src: gal9, caption: "Junto a Rehabilitadoras de todo el Pais en las Jornadas Cientificas en Rehabilitación. Colonia Uruguay" },
+          { src: gal10, caption: "2nd Rehabilitation Training Course. Medel . 13 y 14 de Marzo , 2025" },
         
         ]}
       />

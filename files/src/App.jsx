@@ -26,8 +26,7 @@ import TalleresProfesionales from './pages/services/workshop/pros';
 
 import Blog from './pages/blog/blog_front'
 import BlogEntry1 from './pages/blog/blog_entries/BlogEntry1';
-import BlogEntry2 from './pages/blog/blog_entries/BlogEntry2';
-import BlogEntry3 from './pages/blog/blog_entries/BlogEntry3';
+
 
 
 import Psicomotricidad from './pages/services/spaces/psicomotricidad'
@@ -69,8 +68,6 @@ function App() {
 
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog/1" element={<BlogEntry1 />} />
-        <Route path="/blog/2" element={<BlogEntry2 />} />
-        <Route path="/blog/3" element={<BlogEntry3 />} />
         <Route path="/blog/*" element={<div>Página no encontrada</div>} />
 
 

@@ -1,7 +1,7 @@
 /* src/pages/Blog.css */
 .blog-container {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -23,6 +23,6 @@
 .blog-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #4a1146;
+  color: #332a32;
   margin-bottom: 2rem;
 }

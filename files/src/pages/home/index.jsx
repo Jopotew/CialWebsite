@@ -20,37 +20,40 @@ import service3 from '../../assets/Body/Inicio/28.png';
 import slide2 from '../../assets/Body/Inicio/10.jpeg';
 import slide3 from '../../assets/Body/Inicio/24.png';
 import slide1 from '../../assets/Body/Inicio/25.png';
+import slide4 from '../../assets/Body/Inicio/4.jpeg';
 import double_image_block1 from '../../assets/Body/Inicio/8.jpeg';
 import double_image_block2 from '../../assets/Body/Inicio/12.jpeg';
-import noticia_img1 from '../../assets/Body/Inicio/18.jpeg'; 
+import group from '../../assets/Body/Nosotros/all.jpg'; 
 import { textos } from '../../textos/home/textos';
 
 const heroSlides = [
   {
     image: slide1,
-    title: 'Screening auditivo',
-    text: 'Somos un equipo interdisciplinario con raíces patagónicas y más de veinte años de trayectoria',
-    link: '/nosotros',
-    showButton: true
+    title: textos.slider.slide1.titulo,
+    text: textos.slider.slide1.texto,
+    link: textos.slider.slide1.link,
+    showButton: textos.slider.slide1.showButton
   },
   {
     image: slide2,
-    title: 'Asesorías y supervisiones',
-    text: 'Un espacio pensado para impulsar tu desarrollo profesional, brindando una formacion integral y de alta calidad.',
-    link: '#inicio',
-    showButton: false
+    title: textos.slider.slide2.titulo,
+    text: textos.slider.slide2.texto,
+    link: textos.slider.slide2.link,
+    showButton: textos.slider.slide2.showButton
   },
   {
     image: slide3,
-    title: 'Calibración de audifonos, implantes cocleares y sistemas osteointegrados',
-    text: 'Revisa nuestros talleres para padres y profesionales.',
-    link: '/talleres'
+    title: textos.slider.slide3.titulo,
+    text: textos.slider.slide3.texto,
+    link: textos.slider.slide3.link,
+    showButton: textos.slider.slide3.showButton
   }, 
   {
-    image: slide3,
-    title: 'Ca',
-    text: 'Revisa nuestros talleres para padres y profesionales.',
-    link: '/talleres'
+    image: slide4,
+    title: textos.slider.slide4.titulo,
+    text: textos.slider.slide4.texto,
+    link: textos.slider.slide4.link,
+    showButton: textos.slider.slide4.showButton
   }
 ];
 
@@ -78,7 +81,7 @@ function Home() {
         <InfoSectionRightImage
           title={textos.nuestro_equipo.titulo}
           paragraphs={textos.nuestro_equipo.parrafos}
-          imageSrc={noticia_img1}
+          imageSrc={group}
           linkLabel='Conocenos!'
           linkTo={"/equipo"}
         />
