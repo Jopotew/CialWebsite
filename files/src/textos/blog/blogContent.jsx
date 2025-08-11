@@ -8,6 +8,7 @@ const blogEntries = {
     title: 'Leer antes de saber leer: un viaje al mundo de la primera infancia',
     content: (
             <div>
+                <h7>Escrito por: Lic. Juliana Lamela y Lic. María Eva Skruta </h7>
                 
                 <p>
                 ¿Sabías que la lectura comienza mucho antes de que un niño aprenda a descifrar letras? La investigación <i>Reading in Early Childhood</i>, de Carlos A. Ramírez Noreña y Diana P. De Castro Danza, invita a reflexionar sobre este fascinante proceso, desmitificando la idea de que la lectura es solo una actividad formal que se aprende en el colegio. En cambio, propone que la lectura es una experiencia amplia y profunda que inicia en los primeros momentos de la vida, a través de la interacción con el entorno y las personas que rodean al niño.
