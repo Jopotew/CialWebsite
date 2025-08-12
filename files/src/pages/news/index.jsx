@@ -38,7 +38,9 @@ const noticiasData = [
     excerpt: '',
     link: 'https://www.lmneuquen.com/la-novedosa-cirugia-que-se-hizo-el-alto-valle-y-que-permitira-oir-una-nena-n878440',
     date: '',
-  }
+  },
+  
+
 ];
 
 function Noticias() {
