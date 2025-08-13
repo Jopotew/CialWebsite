@@ -2,12 +2,13 @@
 import React from 'react';
 import NoticiaCard from '../../components/Noticias/NoticiaCard';
 import './news.css';
-import noticia1 from '../../assets/cial_logo.png'
+
 import valen from '../../assets/Body/News/valen.png'
 import suyai from '../../assets/Body/News/suyai.png'
 import maxi from '../../assets/Body/News/maxi.png'
 import bastian from '../../assets/Body/News/bastian.png'
-import noticia2 from '../../assets/cial_logo.png'
+import anahi from '../../assets/Body/News/anahi.png'
+
 
 
 const noticiasData = [
@@ -37,6 +38,14 @@ const noticiasData = [
     title: 'La experiencia de: Suyai',
     excerpt: '',
     link: 'https://www.lmneuquen.com/la-novedosa-cirugia-que-se-hizo-el-alto-valle-y-que-permitira-oir-una-nena-n878440',
+    date: '',
+  },
+  
+  {
+    image: anahi,
+    title: 'Escuchar por primera vez: Anahí y Aneley',
+    excerpt: '',
+    link: 'https://www.instagram.com/reel/DNEmHv4MgWa/?igsh=dHVodmdtZTE4djNt ',
     date: '',
   },
   
