@@ -67,7 +67,7 @@ export const textos = {
       "Desde una perspectiva interdisciplinaria, buscamos identificar las condiciones que favorecen u obstaculizan el aprendizaje, considerando no solo los aspectos cognitivos, sino también los factores emocionales, sociales y contextuales que inciden en cada caso.",
       "El trabajo psicopedagógico se enfoca en diseñar estrategias específicas que estimulen la comprensión, promuevan la autonomía y fortalezcan los recursos personales de cada estudiante. Para ello, se establece un trabajo articulado con las familias, los docentes y otros profesionales del equipo, generando redes de apoyo que sostienen y enriquecen cada intervención.",
       "Además, se prioriza la detección temprana de señales que puedan anticipar desafíos en el aprendizaje, posibilitando una intervención oportuna que contribuya al bienestar y al desarrollo pleno de cada niño o niña, en un clima de confianza, contención y apertura.",
-      "Evaluacion Neurocognitiva…."
+      ""
     ]
   },
 

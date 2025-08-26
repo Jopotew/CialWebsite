@@ -1,14 +1,17 @@
-
 import React from 'react';
 import InformativePage from '../../../components/blog/InformativePage';
-import headerImg from '../../../assets/Body/Inicio/14.jpeg';
+import img1 from '../../../assets/Body/Spaces/audiologia/1.png';
+import img2 from '../../../assets/Body/Spaces/audiologia/2.png';
+import img3 from '../../../assets/Body/Spaces/audiologia/3.png';
 import { textos } from '../../../textos/home/textos';
+
+const imgs = [img1, img2, img3];
 
 function Audiologia() {
   return (
     <InformativePage
       title={textos.audiologia.titulo}
-      image={headerImg}
+      images={imgs}
       paragraphs={textos.audiologia.parrafos}
     />
   );

@@ -1,7 +1,7 @@
 // src/pages/Blog.jsx
 import React from 'react';
 import BlogCard from '../../../components/Blog/BlogCard';
-import blogImage1 from '../../../assets/Body/Blog/Entry1/3.png';
+import blogImage1 from '../../../assets/Body/Inicio/32.png';
 import './BlogFront.css';
 
 function Blog() {
@@ -11,7 +11,7 @@ function Blog() {
       title: 'Leer antes de saber leer',
       excerpt: 'Un viaje al mundo de la primera infancia',
       link: '/blog/1',
-      date: '04 de junio de 2025',
+      date: '04 de junio de 2025'
     },
   ];
 
