@@ -43,37 +43,35 @@ import RehabAuditiva from './pages/services/spaces/rehab_auditiva';
 function App() {
   return (
     <HelmetProvider>
-    <Router>
-      <Navbar />
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
+      <Router basename="/CialWebsite">
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
 
-        <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/equipo" element={<Equipo />} />
-        <Route path="/noticias" element={<Noticias />} />
-        <Route path="/contacto" element={<Contacto />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/equipo" element={<Equipo />} />
+          <Route path="/noticias" element={<Noticias />} />
+          <Route path="/contacto" element={<Contacto />} />
 
-        <Route path="/talleres" element={<Talleres />} />
-        <Route path="/talleres/padres" element={<TalleresPadres />} />
-        <Route path="/talleres/profesionales" element={<TalleresProfesionales />} />
+          <Route path="/talleres" element={<Talleres />} />
+          <Route path="/talleres/padres" element={<TalleresPadres />} />
+          <Route path="/talleres/profesionales" element={<TalleresProfesionales />} />
 
-        <Route path="/psicopedagogia" element={<Psicopedagogia />} />
-        <Route path="/audiologia" element={<Audiologia />} />
-        <Route path="/psicomotricidad" element={<Psicomotricidad />} />
-        <Route path="/psicologia" element={<Psicologia />} />
-        <Route path="/fonoaudiologia" element={<Fonoaudiologia />} />
-        <Route path="/rehab_auditiva" element={<RehabAuditiva />} />
-        <Route path="/lorena_valenzuela" element={<Owner/>} />
+          <Route path="/psicopedagogia" element={<Psicopedagogia />} />
+          <Route path="/audiologia" element={<Audiologia />} />
+          <Route path="/psicomotricidad" element={<Psicomotricidad />} />
+          <Route path="/psicologia" element={<Psicologia />} />
+          <Route path="/fonoaudiologia" element={<Fonoaudiologia />} />
+          <Route path="/rehab_auditiva" element={<RehabAuditiva />} />
+          <Route path="/lorena_valenzuela" element={<Owner/>} />
 
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/1" element={<BlogEntry1 />} />
-        <Route path="/blog/*" element={<div>Página no encontrada</div>} />
-
-
-      </Routes>
-      <Footer /> 
-    </Router>
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/1" element={<BlogEntry1 />} />
+          <Route path="/blog/*" element={<div>Página no encontrada</div>} />
+        </Routes>
+        <Footer /> 
+      </Router>
     </HelmetProvider>
   );
 }
