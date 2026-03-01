@@ -2,11 +2,22 @@
 import React from 'react';
 import './InformativePage.css';
 
-function InformativePage({ title, image, paragraphs = [] }) {
+// Componente que recibe: title, images (array) y paragraphs
+function InformativePage({ title, images = [], paragraphs = [] }) {
   return (
     <div className="informative-page-container">
       <div className="informative-header">
-        <img src={image} alt={title} className="informative-header-image" />
+        {/* Renderiza todas las imágenes recibidas */}
+        <div className="informative-images">
+          {images.map((img, idx) => (
+            <img
+              key={idx}
+              src={img}
+              alt={`${title} - ${idx + 1}`}
+              className="informative-header-image"
+            />
+          ))}
+        </div>
         <h1 className="informative-title">{title}</h1>
       </div>
       <div className="informative-content">

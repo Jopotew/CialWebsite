@@ -2,7 +2,7 @@
 import React from 'react';
 import TallerInfoCard from '../../../../components/Taller/TallerInfoCard';
 import './TalleresDetalle.css';
-import q from '../../../../assets/Body/Inicio/5.jpeg';
+import q from '../../../../assets/Body/Inicio/33.png';
 import t from '../../../../assets/Body/Inicio/10.jpeg';
 import h from '../../../../assets/Body/Inicio/13.jpeg';
 
