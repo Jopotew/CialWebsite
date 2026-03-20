@@ -1,0 +1,10 @@
+.home_container {
+  padding: 16px;
+  padding-bottom: 80px;
+}
+
+.placeholder_box {
+  height: 150px;
+  background: #ddd;
+  border-radius: 12px;
+}
