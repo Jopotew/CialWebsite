@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import BottomNav from "../components/mobile/BottomNav";
+import BottomNav from "../components/mobile/navigation/bottom_nav";
 
 const MobileLayout = () => {
   return (

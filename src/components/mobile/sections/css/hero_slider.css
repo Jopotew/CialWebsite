@@ -1,0 +1,82 @@
+/* ===== CONTENEDOR PRINCIPAL ===== */
+.hero-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;   /* 👈 clave: evita que las imágenes se desborden */
+}
+
+/* ===== CADA SLIDE ===== */
+.hero-slider__slide {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ===== IMAGEN ===== */
+.hero-slider__img {
+  width: 100%;
+  height: 256px;        /* equivale a h-64 de Tailwind */
+  object-fit: cover;    /* recorta sin deformar */
+  object-position: center;
+  display: block;       /* elimina el espacio inline por defecto */
+}
+
+/* ===== OVERLAY CON GRADIENTE ===== */
+.hero-slider__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 30%,
+    rgba(0, 0, 0, 0.45) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ===== TEXTO ===== */
+.hero-slider__text {
+  padding: 1.25rem 1.5rem;
+  color: #ffffff;
+}
+
+.hero-slider__title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.hero-slider__subtitle {
+  font-size: 0.85rem;
+  font-weight: 400;
+  opacity: 0.92;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== DOTS (puntitos del slider) ===== */
+.hero-slider .slick-dots {
+  bottom: 10px;
+}
+
+.hero-slider .slick-dots li button::before {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 8px;
+}
+
+.hero-slider .slick-dots li.slick-active button::before {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* ===== RESPONSIVE ===== */
+
+/* Tablets */
+@media (min-width: 640px) {
+  .hero-slider__img {
+    height: 320px;
+  }
+}
+

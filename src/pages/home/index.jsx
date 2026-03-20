@@ -1,37 +1,40 @@
-import Section from "../../components/mobile/section";
-import Title from "../../components/mobile/title";
-import TextBlock from "../../components/mobile/text_block";
-import Hero from "../../components/mobile/hero";
-import ImageCard from "../../components/mobile/image_card";
+import HeroSlider from "../../components/mobile/sections/hero_slider";
+import AboutSection from "../../components/mobile/sections/about_section";
+import TeamSection from "../../components/mobile/sections/team_section";
+import ServicesSection from "../../components/mobile/sections/services_section";
+import NewsSection from "../../components/mobile/sections/news_section";
+import Footer from "../../components/mobile/sections/footer";
 
-import "./home.css";
+
+import noticia_img from "../../assets/noticia2.png";
+
+const slides = [
+  {
+    url: noticia_img,
+    title: "Cuidando tu audición",
+    subtitle: "Servicios especializados",
+  },
+  {
+    url: noticia_img,
+    title: "Cuidando tu audición",
+    subtitle: "Servicios especializados",
+  },
+  {
+    url: noticia_img,
+    title: "Cuidando tu audición",
+    subtitle: "Servicios especializados",
+  },
+];
 
 const Home = () => {
   return (
     <div className="home_container">
-      
-      <Hero
-        title="Cuidando tu audición"
-        subtitle="Servicios especializados en audiología y fonoaudiología"
-      />
-
-      <Section>
-        <Title>¿Quiénes somos?</Title>
-
-        <TextBlock>
-          Somos un equipo comprometido con tu bienestar auditivo y comunicativo.
-        </TextBlock>
-
-        <TextBlock>
-          Con más de 15 años de experiencia, ofrecemos servicios especializados.
-        </TextBlock>
-      </Section>
-
-      <Section>
-        <Title>Nuestro Equipo</Title>
-        <div className="placeholder_box"></div>
-      </Section>
-
+      <HeroSlider slides={slides} />
+      <AboutSection />
+      <TeamSection />
+      <ServicesSection />
+      <NewsSection />
+      <Footer />
     </div>
   );
 };
