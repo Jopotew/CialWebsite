@@ -1,0 +1,108 @@
+.espacios-page {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+.espacios-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  color: #7c3aed;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.espacios-page__header {
+  padding: 0.5rem 1.5rem 1.25rem;
+}
+
+.espacios-page__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #7c3aed;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.espacios-page__subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Grid de cards */
+.espacios-page__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1.25rem;
+}
+
+/* Card individual */
+.espacio-card {
+  display: block;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.espacio-card:active {
+  transform: scale(0.98);
+}
+
+.espacio-card__img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.espacio-card__body {
+  padding: 0.9rem 1.1rem 1rem;
+}
+
+.espacio-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #7c3aed;
+  margin-bottom: 0.3rem;
+}
+
+.espacio-card__desc {
+  font-size: 0.8rem;
+  color: #6b7280;
+  line-height: 1.55;
+  margin-bottom: 0.65rem;
+}
+
+.espacio-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.espacio-card__cta {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #7c3aed;
+}
+
+.espacio-card__arrow {
+  color: #7c3aed;
+}
+
+/* Tablet: 2 columnas */
+@media (min-width: 480px) {
+  .espacios-page__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
