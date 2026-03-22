@@ -15,9 +15,9 @@ import ProfessionalsPage from "./pages/services_hub/workshops/profesionals";
 import EspaciosPage from "./pages/services_hub/spaces_hub";
 import AudiologiaPage from "./pages/services_hub/spaces_hub/spaces/audiologia";
 import NovedadesPage      from "./pages/novedades";
-import NoticiasListPage   from "./pages/novedades/noticias";
+import NoticiasListPage   from "./pages/novedades/news";
 import BlogListPage       from "./pages/novedades/blog";
-import BlogPostPage       from "./pages/novedades/blog/entry";
+import BlogPostPage       from "./pages/novedades/blog/entries";
 
 function App() {
   const { isMobile } = useDevice();

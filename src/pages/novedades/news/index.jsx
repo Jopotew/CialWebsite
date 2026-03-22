@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ChevronLeft, ExternalLink } from "lucide-react";
-import "./NoticiasListPage.css";
+import "./news.css";
 
 const noticias = [
   {

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Newspaper, BookOpen, ArrowRight } from "lucide-react";
-import "./NovedadesPage.css";
+import "./novedades.css";
 
 const secciones = [
   {
