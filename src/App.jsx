@@ -6,7 +6,6 @@ import MobileLayout from "./layouts/MobileLayout";
 
 import Home from "./pages/home";
 import Team from "./pages/team_hub";
-import News from "./pages/news_hub";
 import Services from "./pages/services_hub";
 import Contact from "./pages/contact";
 import OwnerPage from "./pages/team_hub/owner";
@@ -15,6 +14,10 @@ import FamiliesPage from "./pages/services_hub/workshops/family";
 import ProfessionalsPage from "./pages/services_hub/workshops/profesionals";
 import EspaciosPage from "./pages/services_hub/spaces_hub";
 import AudiologiaPage from "./pages/services_hub/spaces_hub/spaces/audiologia";
+import NovedadesPage      from "./pages/novedades";
+import NoticiasListPage   from "./pages/novedades/noticias";
+import BlogListPage       from "./pages/novedades/blog";
+import BlogPostPage       from "./pages/novedades/blog/entry";
 
 function App() {
   const { isMobile } = useDevice();
@@ -27,7 +30,10 @@ function App() {
           <Route path="/"                                        element={<Home />} />
           <Route path="/equipo"                                  element={<Team />} />
           <Route path="/equipo/lorena-valenzuela"                element={<OwnerPage />} />
-          <Route path="/noticias"                                element={<News />} />
+          <Route path="/novedades"                   element={<NovedadesPage />} />
+          <Route path="/noticias/noticias"          element={<NoticiasListPage />} />
+          <Route path="/noticias/blog"              element={<BlogListPage />} />
+          <Route path="/noticias/blog/:slug"        element={<BlogPostPage />} />
           <Route path="/servicios"                               element={<Services />} />
           <Route path="/servicios/talleres"                      element={<WorkshopsPage />} />
           <Route path="/servicios/talleres/familias"             element={<FamiliesPage />} />
