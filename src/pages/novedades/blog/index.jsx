@@ -44,7 +44,7 @@ const posts = [
 const BlogListPage = () => {
   return (
     <div className="blog-list-page">
-      <Link to="/noticias" className="blog-list-page__back">
+      <Link to="/novedades" className="blog-list-page__back">
         <ChevronLeft size={18} />
         <span>Novedades</span>
       </Link>
@@ -60,7 +60,7 @@ const BlogListPage = () => {
         {posts.map((post) => (
           <Link
             key={post.id}
-            to={`/noticias/blog/${post.slug}`}
+            to={`/novedades/blog/${post.slug}`}
             className="blog-card"
           >
             <img src={post.img} alt={post.title} className="blog-card__img" />
