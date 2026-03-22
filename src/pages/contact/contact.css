@@ -1,0 +1,154 @@
+.contacto-page {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+/* ===== HEADER ===== */
+.contacto-page__header {
+  padding: 1.75rem 1.5rem 1rem;
+  background-color: #ffffff;
+}
+
+.contacto-page__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #7c3aed;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.contacto-page__subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* ===== MAPA ===== */
+.contacto-page__map {
+  width: 100%;
+  height: 220px;
+  background-color: #e5e7eb;
+}
+
+.contacto-page__map iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ===== CARDS ===== */
+.contacto-page__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+
+.contacto-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.contacto-card__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f3e8ff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contacto-card__icon {
+  color: #7c3aed;
+}
+
+.contacto-card__logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.contacto-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.contacto-card__label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contacto-card__value {
+  font-size: 0.9rem;
+  color: #1f2937;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contacto-card__value--link {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+.contacto-card__value--link:hover {
+  text-decoration: underline;
+}
+
+/* ===== BOTÓN WPP DESTACADO ===== */
+.contacto-page__wpp {
+  padding: 0 1.25rem;
+}
+
+.contacto-wpp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #25d366;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.contacto-wpp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+.contacto-wpp-btn:active {
+  transform: scale(0.98);
+}
+
+.contacto-wpp-btn__logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 480px) {
+  .contacto-page__map {
+    height: 280px;
+  }
+}
