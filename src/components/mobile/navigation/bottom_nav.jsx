@@ -9,7 +9,7 @@ const BottomNav = () => {
     { to: "/",        icon: Home,          label: "Inicio"    },
     { to: "/team",    icon: Users,         label: "Equipo"    },
     { to: "/services",icon: Briefcase,     label: "Servicios" },
-    { to: "/news",    icon: Newspaper,     label: "Noticias"  },
+    { to: "/news&blog",    icon: Newspaper,     label: "Noticias y Blog"  },
     { to: "/contact", icon: MessageCircle, label: "Contacto"  },
   ];
 

@@ -21,7 +21,7 @@ function App() {
   const Layout = isMobile ? MobileLayout : DesktopLayout;
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CialWebsite/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
@@ -30,7 +30,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/services" element={<Services />} />
 
-          <Route path="/services"                          element={<WorkshopsPage />} />
+          <Route path="/services/talleres"                          element={<WorkshopsPage />} />
           <Route path="/services/talleres/familias"        element={<FamiliesPage />} />
           <Route path="/services/talleres/profesionales"   element={<ProfessionalsPage />} />
           <Route path="/services/espacios"                 element={<EspaciosPage />} />
