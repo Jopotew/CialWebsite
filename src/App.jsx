@@ -31,9 +31,9 @@ function App() {
           <Route path="/equipo"                                  element={<Team />} />
           <Route path="/equipo/lorena-valenzuela"                element={<OwnerPage />} />
           <Route path="/novedades"                   element={<NovedadesPage />} />
-          <Route path="/noticias/noticias"          element={<NoticiasListPage />} />
-          <Route path="/noticias/blog"              element={<BlogListPage />} />
-          <Route path="/noticias/blog/:slug"        element={<BlogPostPage />} />
+          <Route path="/novedades/noticias"          element={<NoticiasListPage />} />
+          <Route path="/novedades/blog"              element={<BlogListPage />} />
+          <Route path="/novedades/blog/:slug"        element={<BlogPostPage />} />
           <Route path="/servicios"                               element={<Services />} />
           <Route path="/servicios/talleres"                      element={<WorkshopsPage />} />
           <Route path="/servicios/talleres/familias"             element={<FamiliesPage />} />
