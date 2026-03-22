@@ -18,7 +18,7 @@ const AboutSection = () => {
         garanticen tu bienestar y el de tu familia.
       </p>
 
-      <Link to="/team" className="about-section__btn">
+      <Link to="/equipo" className="about-section__btn">
         Conocer más
       </Link>
     </section>

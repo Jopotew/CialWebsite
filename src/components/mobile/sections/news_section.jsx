@@ -7,21 +7,21 @@ const news = [
     description:
       "Conoce cómo y desde qué edad es importante realizar evaluaciones auditivas en los niños y qué hacer si se detecta un problema...",
     img: "https://images.unsplash.com/photo-1753705745770-6ceefc22ed33?w=1080",
-    to: "/news/capacitacion",
+    to: "/novedades",
   },
   {
     title: "Últimas noticias",
     description:
       "Mantente informado sobre las últimas noticias en el campo de la audiología y fonoaudiología. Tips y recomendaciones para el cuidado...",
     img: "https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080",
-    to: "/news/ultimas",
+    to: "/novedades/noticias",
   },
   {
     title: "Nuestro Blog",
     description:
       "Lee nuestros artículos sobre desarrollo del lenguaje, prevención auditiva y muchos temas más que te ayudarán a cuidar tu salud...",
     img: "https://images.unsplash.com/photo-1771408427146-09be9a1d4535?w=1080",
-    to: "/news/blog",
+    to: "/novedades/blog",
   },
 ];
 
