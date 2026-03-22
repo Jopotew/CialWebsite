@@ -24,19 +24,17 @@ function App() {
     <BrowserRouter basename="/CialWebsite/">
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/lorena_valenzuela" element={<OwnerPage />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/services" element={<Services />} />
-
-          <Route path="/services/talleres"                          element={<WorkshopsPage />} />
-          <Route path="/services/talleres/familias"        element={<FamiliesPage />} />
-          <Route path="/services/talleres/profesionales"   element={<ProfessionalsPage />} />
-          <Route path="/services/espacios"                 element={<EspaciosPage />} />
-          <Route path="/services/espacios/audiologia"      element={<AudiologiaPage />} />
-          <Route path="/contact" element={<Contact />} />
-
+          <Route path="/"                                        element={<Home />} />
+          <Route path="/equipo"                                  element={<Team />} />
+          <Route path="/equipo/lorena-valenzuela"                element={<OwnerPage />} />
+          <Route path="/noticias"                                element={<News />} />
+          <Route path="/servicios"                               element={<Services />} />
+          <Route path="/servicios/talleres"                      element={<WorkshopsPage />} />
+          <Route path="/servicios/talleres/familias"             element={<FamiliesPage />} />
+          <Route path="/servicios/talleres/profesionales"        element={<ProfessionalsPage />} />
+          <Route path="/servicios/espacios"                      element={<EspaciosPage />} />
+          <Route path="/servicios/espacios/audiologia"           element={<AudiologiaPage />} />
+          <Route path="/contacto"                                element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

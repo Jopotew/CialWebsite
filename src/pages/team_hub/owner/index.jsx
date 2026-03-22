@@ -49,7 +49,7 @@ const OwnerPage = () => {
     <div className="owner-page">
 
       {/* Botón volver */}
-      <Link to="/team" className="owner-page__back">
+      <Link to="/equipo" className="owner-page__back">
         <ChevronLeft size={18} />
         <span>Equipo</span>
       </Link>

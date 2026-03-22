@@ -6,16 +6,16 @@ const BottomNav = () => {
   const { pathname } = useLocation();
 
   const links = [
-    { to: "/",        icon: Home,          label: "Inicio"    },
-    { to: "/team",    icon: Users,         label: "Equipo"    },
-    { to: "/services",icon: Briefcase,     label: "Servicios" },
-    { to: "/novedades",    icon: Newspaper,     label: "Novedades"  },
-    { to: "/contact", icon: MessageCircle, label: "Contacto"  },
+    { to: "/",          icon: Home,          label: "Inicio"    },
+    { to: "/equipo",    icon: Users,         label: "Equipo"    },
+    { to: "/servicios", icon: Briefcase,     label: "Servicios" },
+    { to: "/novedades",  icon: Newspaper,     label: "Novedades"  },
+    { to: "/contacto",  icon: MessageCircle, label: "Contacto"  },
   ];
 
   return (
     <nav className="bottom-nav">
-      {links.map(({ to, icon: Icon, label }) => { //
+      {links.map(({ to, icon: Icon, label }) => {
         const isActive = pathname === to;
         return (
           <Link

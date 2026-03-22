@@ -8,21 +8,21 @@ const sections = [
     description:
       "Espacios diseñados para acompañar a familias en la crianza y educación de sus hijos. Aprende estrategias prácticas y comparte experiencias.",
     img: "https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080",
-    to: "/services/talleres/familias",
+    to: "/servicios/talleres/familias",
   },
   {
     title: "Talleres para Profesionales",
     description:
       "Capacitaciones y actualizaciones para profesionales del área educativa y social. Formación continua en las últimas técnicas y metodologías.",
     img: "https://images.unsplash.com/photo-1755548413928-4aaeba7c740e?w=1080",
-    to: "/services/talleres/profesionales",
+    to: "/servicios/talleres/profesionales",
   },
   {
     title: "Espacios",
     description:
       "Conocé nuestros espacios especializados: Audiología, Fonoaudiología, Psicología, Psicopedagogía y más.",
     img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
-    to: "/services/espacios",
+    to: "/servicios/espacios",
   },
 ];
 

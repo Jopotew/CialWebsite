@@ -7,44 +7,44 @@ const espacios = [
     title: "Audiología",
     description: "Estudios completos de audición en niños y adultos.",
     img: "https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080",
-    to: "/services/espacios/audiologia",
+    to: "/servicios/espacios/audiologia",
   },
   {
     title: "Fonoaudiología",
     description: "Tratamiento del lenguaje, habla y comunicación.",
     img: "https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080",
-    to: "/services/espacios/fonoaudiologia",
+    to: "/servicios/espacios/fonoaudiologia",
   },
   {
     title: "Psicología",
     description: "Acompañamiento emocional y psicológico para niños y adultos.",
     img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1080",
-    to: "/services/espacios/psicologia",
+    to: "/servicios/espacios/psicologia",
   },
   {
     title: "Psicopedagogía",
     description: "Acompañamiento integral de los procesos de aprendizaje.",
     img: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1080",
-    to: "/services/espacios/psicopedagogia",
+    to: "/servicios/espacios/psicopedagogia",
   },
   {
     title: "Psicomotricidad",
     description: "Desarrollo motriz y corporal en niños.",
     img: "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=1080",
-    to: "/services/espacios/psicomotricidad",
+    to: "/servicios/espacios/psicomotricidad",
   },
   {
     title: "Rehabilitación Auditiva",
     description: "Rehabilitación especializada para personas con hipoacusia.",
     img: "https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=1080",
-    to: "/services/espacios/rehabilitacion",
+    to: "/servicios/espacios/rehabilitacion",
   },
 ];
 
 const EspaciosPage = () => {
   return (
     <div className="espacios-page">
-      <Link to="/services" className="espacios-page__back">
+      <Link to="/servicios" className="espacios-page__back">
         <ChevronLeft size={18} />
         <span>Servicios</span>
       </Link>
