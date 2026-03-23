@@ -7,22 +7,23 @@ import Footer from "../../components/mobile/sections/footer";
 
 
 import noticia_img from "../../assets/noticia2.png";
+import { home_text } from "../../textos/home";
 
 const slides = [
   {
     url: noticia_img,
-    title: "Cuidando tu audición",
-    subtitle: "Servicios especializados",
+    title: home_text.slider.slide1.titulo,
+    subtitle: home_text.slider.slide1.texto,
   },
   {
     url: noticia_img,
-    title: "Cuidando tu audición",
-    subtitle: "Servicios especializados",
+    title: home_text.slider.slide2.titulo,
+    subtitle: home_text.slider.slide2.texto,
   },
   {
     url: noticia_img,
-    title: "Cuidando tu audición",
-    subtitle: "Servicios especializados",
+    title: home_text.slider.slide3.titulo,
+    subtitle: home_text.slider.slide3.texto,
   },
 ];
 

@@ -17,55 +17,47 @@ const members = [
     name: "Lic. María Lorena Valenzuela",
     description: "LSLS Cert. AVT · Fonoaudióloga · Prof. Para sordos · Fundadora de CIAL",
     isOwner: true,
-    to: "/lorena_valenzuela",
+    to: "/equipo/lorena-valenzuela",
   },
   {
     image: adriana,
     name: "Lic. Adriana Dietrich",
     description: "Psicomotricidad",
-    isOwner: false,
   },
   {
     image: maria_sol,
     name: "Lic. María Sol Trasarti",
     description: "Fonoaudióloga · Audióloga",
-    isOwner: false,
   },
   {
     image: ana,
     name: "Lic. Ana Swchab.",
     description: "Fonoaudióloga · Prompt Bridging Trained · Especialista en CAA",
-    isOwner: false,
   },
   {
     image: belen,
     name: "Lic. Belén Montecino",
     description: "Fonoaudióloga · Audióloga",
-    isOwner: false,
   },
   {
     image: eva,
     name: "Lic. M. Eva Skruta",
     description: "Psicopedagoga",
-    isOwner: false,
   },
   {
     image: juliana,
     name: "Lic. Juliana Lamela",
     description: "Psicopedagoga",
-    isOwner: false,
   },
   {
     image: nati,
     name: "Lic. Natasha Carballo",
     description: "Psicóloga",
-    isOwner: false,
   },
   {
     image: gimena,
     name: "Lic. Gimena Aravena",
     description: "Psicóloga",
-    isOwner: false,
   },
 ];
 

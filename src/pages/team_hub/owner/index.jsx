@@ -17,7 +17,7 @@ import gal8  from "../../../assets/Body/Owner/8.jpg";
 import gal9  from "../../../assets/Body/Owner/9.jpg";
 import gal10 from "../../../assets/Body/Owner/10.jpg";
 
-import { text } from "../../../textos/team/owner/text";
+import { text } from "../../../textos/owner_speech";
 
 const Slider = SliderImport.default ?? SliderImport;
 
