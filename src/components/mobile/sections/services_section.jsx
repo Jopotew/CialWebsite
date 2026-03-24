@@ -10,11 +10,11 @@ const services = [
     to: "/servicios/espacios/audiologia",
   },
   {
-    title: "Fonoaudiología",
+    title: "Rehabilitación Auditiva",
     description:
       "Tratamiento y terapia del lenguaje y la comunicación. Trabajamos con niños y adultos en problemas de habla, lenguaje y deglución.",
     img: "https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080",
-    to: "/servicios/espacios/fonoaudiologia",
+    to: "/servicios/espacios/rehabilitacion-auditiva",
   },
   {
     title: "Talleres y Espacios",

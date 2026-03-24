@@ -58,7 +58,7 @@ const OwnerPage = () => {
       <div className="owner-header">
         <img src={profileImg} alt="Lorena Valenzuela" className="owner-header__img" />
         <div className="owner-header__overlay">
-          <span className="owner-header__badge">Fundadora de CIAL</span>
+          <span className="owner-header__badge">Directora de C.I.A.L</span>
           <h1 className="owner-header__name">Lic. María Lorena Valenzuela</h1>
           <p className="owner-header__title">
             LSLS Cert. AVT · Fonoaudióloga · Prof. Para sordos

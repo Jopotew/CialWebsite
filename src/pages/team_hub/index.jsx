@@ -15,7 +15,7 @@ const members = [
   {
     image: lorena,
     name: "Lic. María Lorena Valenzuela",
-    description: "LSLS Cert. AVT · Fonoaudióloga · Prof. Para sordos · Fundadora de CIAL",
+    description: "LSLS Cert. AVT · Fonoaudióloga · Prof. Para sordos · Directora de C.I.A.L",
     isOwner: true,
     to: "/equipo/lorena-valenzuela",
   },
@@ -75,7 +75,7 @@ const TeamPage = () => {
               <img src={m.image} alt={m.name} className="team-card__img" />
             </div>
             <div className="team-card__body">
-              <span className="team-card__badge">Fundadora</span>
+              <span className="team-card__badge">Directora</span>
               <h2 className="team-card__name">{m.name}</h2>
               <p className="team-card__desc">{m.description}</p>
               <span className="team-card__cta">Ver perfil completo →</span>

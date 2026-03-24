@@ -97,6 +97,7 @@
 /* ===== BIO ===== */
 .owner-bio {
   padding: 1.25rem 1.5rem;
+  text-indent: 1.5rem;
 }
 
 .owner-bio__p {
