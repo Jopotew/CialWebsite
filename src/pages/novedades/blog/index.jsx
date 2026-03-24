@@ -5,42 +5,14 @@ import "./blog.css";
 const posts = [
   {
     id: 1,
-    slug: "estimulacion-auditiva-temprana",
-    title: "Estimulación auditiva temprana en bebés",
-    excerpt: "Conocé por qué los primeros meses de vida son cruciales para el desarrollo auditivo y qué podés hacer en casa.",
-    img: "https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?w=1080",
-    author: "Lic. María Lorena Valenzuela",
-    date: "15 de marzo, 2025",
-  },
-  {
-    id: 2,
-    slug: "lenguaje-y-juego",
-    title: "El juego como motor del lenguaje",
-    excerpt: "Cómo las actividades lúdicas potencian el desarrollo comunicativo en niños de 2 a 5 años.",
-    img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1080",
-    author: "Lic. Ana Swchab",
-    date: "2 de marzo, 2025",
-  },
-  {
-    id: 3,
-    slug: "hipoacusia-preguntas-frecuentes",
-    title: "Hipoacusia: preguntas frecuentes",
-    excerpt: "Todo lo que necesitás saber sobre la pérdida auditiva, sus tipos, causas y tratamientos disponibles.",
-    img: "https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=1080",
-    author: "Lic. María Sol Trasarti",
-    date: "18 de febrero, 2025",
-  },
-  {
-    id: 4,
-    slug: "implante-coclear-vida-cotidiana",
-    title: "Implante coclear: la vida cotidiana después",
-    excerpt: "Testimonios y guía práctica para familias que atraviesan el proceso de rehabilitación post-implante.",
-    img: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1080",
-    author: "Lic. Belén Montecino",
-    date: "5 de febrero, 2025",
+    slug: "leer-antes-de-saber-leer",
+    title: "Leer antes de saber leer: un viaje al mundo de la primera infancia",
+    excerpt: "¿Sabías que la lectura comienza mucho antes de que un niño aprenda a descifrar letras?",
+    img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1080", 
+    author: "Lic. Juliana Lamela y Lic. María Eva Skruta",
+    date: "2025",
   },
 ];
-
 const BlogListPage = () => {
   return (
     <div className="blog-list-page">
@@ -50,7 +22,7 @@ const BlogListPage = () => {
       </Link>
 
       <div className="blog-list-page__header">
-        <h1 className="blog-list-page__title">Blog</h1>
+        <h1 className="blog-list-page__title">Voces y Palabras ~ Nuestro blog.</h1>
         <p className="blog-list-page__subtitle">
           Artículos escritos por nuestro equipo de profesionales
         </p>

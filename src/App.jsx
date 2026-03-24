@@ -21,7 +21,7 @@ import RehabilitacionPage from "./pages/services_hub/spaces_hub/spaces/rehabilit
 import NovedadesPage      from "./pages/novedades";
 import NoticiasListPage   from "./pages/novedades/news";
 import BlogListPage       from "./pages/novedades/blog";
-import BlogPostPage       from "./pages/novedades/blog/entries";
+import BlogPostPage       from "./pages/novedades/blog/blog_post_page";
 
 function App() {
   const { isMobile } = useDevice();

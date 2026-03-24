@@ -1,45 +1,62 @@
 import { Link } from "react-router-dom";
 import { ChevronLeft, ExternalLink } from "lucide-react";
+import valen from "../../../assets/news/valen.png";
+import maxi from "../../../assets/news/maxi.png";
+import bastian from "../../../assets/news/bastian.png";
+import suyai from "../../../assets/news/suyai.png";
+import anahi from "../../../assets/news/anahi.png";
 import "./news.css";
 
 const noticias = [
   {
     id: 1,
-    title: "Avances en implantes cocleares para bebés",
-    description: "Nuevas técnicas permiten detectar hipoacusia en recién nacidos con mayor precisión.",
-    img: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=1080",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    type: "video",
-    source: "YouTube",
+    title: 'Historias que inspiran: Valentin',
+    description: "Valentín Artus, el fotógrafo aeronáutico y de cancha que 'superó todas las barreras', expondrá en la vecina ciudad. Una historia de superación en una emotiva jornada.",
+    img: valen,
+    url: "https://www.lmcipolletti.com/provincia/el-dia-valentin-cumple-anos-y-un-gran-sueno-al-presentar-su-obra-n1169942",
+    type: "articulo",
+    source: "lmcipolletti.com",
   },
   {
     id: 2,
-    title: "La importancia del screening auditivo neonatal",
-    description: "Especialistas destacan la detección temprana como clave para el desarrollo del lenguaje.",
-    img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1080",
-    url: "https://www.infobae.com",
-    type: "articulo",
-    source: "Infobae",
+    title: "Historias que inspiran: Maxi",
+    description: "Maxi, el nene de Roca que nació con sordera y cambió su vida: a cada paso, un nuevo sonido.",
+    img: maxi,
+    url: "https://www.instagram.com/reel/C20m_cKOnb5/?igsh=OXBzcWVyN2t4YWx0",
+    type: "video",
+    source: "Instagram",
   },
   {
     id: 3,
-    title: "Fonoaudiología y tecnología: nuevas herramientas",
-    description: "Apps y dispositivos que están revolucionando el tratamiento del lenguaje en niños.",
-    img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1080",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    type: "video",
-    source: "YouTube",
+    title: "La experiencia de: Bastian",
+    description: "Con la llegada de profesionales de alto nivel, se realizó una intervención en Roca y se les colocaron implantes. Ahora los dos pequeños podrán conocer los sonidos y empezar a hablar.",
+    img: bastian,
+    url: "https://www.rionegro.com.ar/sociedad/un-bebe-y-un-nene-podran-volver-a-escuchar-tras-una-importante-cirugia-en-el-hospital-de-roca-2662696/",
+    type: "articulo",
+    source: "rionegro.com.ar",
   },
   {
     id: 4,
-    title: "Congreso Iberoamericano de Implantes Cocleares 2025",
-    description: "Resumen de los principales hallazgos del GICCA 2025 presentados por especialistas.",
-    img: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1080",
-    url: "https://www.lanacion.com.ar",
+    title: "La experiencia de: Suyai",
+    description: "La novedosa cirugía que se hizo en el Alto Valle y que permitirá oír a una nena",
+    img: suyai,
+    url: "https://www.lmneuquen.com/la-novedosa-cirugia-que-se-hizo-el-alto-valle-y-que-permitira-oir-una-nena-n878440",
     type: "articulo",
-    source: "La Nación",
+    source: "LM Neuquén",
+  },
+  {
+    id: 5,
+    title: "Escuchar por primera vez: Anahí y Aneley",
+    description: "*ESCUCHAR POR PRIMERA VEZ*: Anahí y Aneley, dos niñas neuquinas de 1 y 5 años escucharon por primera vez.",
+    img: anahi,
+    url: "https://www.instagram.com/reel/DNEmHv4MgWa/?igsh=dHVodmdtZTE4djNt",
+    type: "video",
+    source: "Instagram",
   },
 ];
+
+
+
 
 const typeBadge = {
   video:   { label: "▶ Ver video",   bg: "#fee2e2", color: "#dc2626" },
@@ -49,7 +66,7 @@ const typeBadge = {
 const NoticiasListPage = () => {
   return (
     <div className="noticias-list-page">
-      <Link to="/noticias" className="noticias-list-page__back">
+      <Link to="/novedades" className="noticias-list-page__back">
         <ChevronLeft size={18} />
         <span>Novedades</span>
       </Link>
