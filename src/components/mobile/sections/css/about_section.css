@@ -29,10 +29,10 @@
 /* ===== BOTÓN ===== */
 .about-section__btn {
   display: block;
-  width: 100%;
-  padding: 0.85rem;
+  padding: 0.85rem 1.5rem;   
+  box-sizing: border-box;
 
-  background-color: #9333ea;   /* purple-600 */
+  background-color: #9333ea;   
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 600;

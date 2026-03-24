@@ -1,4 +1,4 @@
-export const textos = {
+export const spaces_texts = {
 
   psicopedagogia: {
     titulo: "Acompañamiento Integral del Aprendizaje",

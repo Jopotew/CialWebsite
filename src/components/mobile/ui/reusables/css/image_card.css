@@ -40,7 +40,7 @@
 /* ===== BOTÓN ===== */
 .image-card__btn {
   display: block;
-  width: 100%;
+  width: calc(100% - 1.25rem);
   padding: 0.65rem;
 
   background-color: #9333ea;
