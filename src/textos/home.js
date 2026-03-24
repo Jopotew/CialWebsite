@@ -33,11 +33,10 @@ export const home_text = {
 
 
   intro: {
-    titulo: "Quienes somos?",
+    titulo: "¿Quienes somos?",
     parrafos: [
       "Somos un equipo interdisciplinario con raíces patagónicas y más de veinte años de trayectoria, comprometido con la promoción del desarrollo comunicativo y el acompañamiento integral de trayectorias vinculadas con la audición, el lenguaje y el aprendizaje.",
       "Nuestra labor abarca la prevención, detección, evaluación, diagnóstico e intervención terapéutica, con una mirada ética, respetuosa y centrada en la singularidad de cada persona y su entorno familiar."
-
     ]
   },
   nuestro_equipo:{

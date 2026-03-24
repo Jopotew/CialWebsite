@@ -3,7 +3,7 @@ import "./css/team_section.css";
 
 const members = [
   {
-    title: "Equipo de Audiología",
+    title: "Nosotras",
     description:
       "Profesionales altamente capacitados en diagnóstico y tratamiento auditivo. Con más de 15 años acompañando a niños y adultos.",
     img: "https://images.unsplash.com/photo-1731419711677-cb2387cfc557?w=1080",

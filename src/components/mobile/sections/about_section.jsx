@@ -1,21 +1,19 @@
 import { Link } from "react-router-dom";
 import "./css/about_section.css";
-
+import { home_text } from "../../../textos/home";
 const AboutSection = () => {
   return (
     <section className="about-section">
-      <h2 className="about-section__title">¿Quiénes somos?</h2>
+      <h2 className="about-section__title">
+        {home_text.intro.titulo}
+      </h2>
 
       <p className="about-section__text">
-        Somos un equipo comprometido con tu bienestar auditivo y comunicativo.
-        Con más de 15 años de experiencia, ofrecemos servicios especializados
-        en audiología y fonoaudiología para niños y adultos.
+        {home_text.intro.parrafos[0]}
       </p>
 
       <p className="about-section__text">
-        Nuestro labor es proporcionarte la mejor atención personalizada,
-        utilizando tecnología de punta y tratamientos innovadores que
-        garanticen tu bienestar y el de tu familia.
+        {home_text.intro.parrafos[1]}
       </p>
 
       <Link to="/equipo" className="about-section__btn">
