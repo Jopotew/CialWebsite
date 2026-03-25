@@ -1,12 +1,12 @@
 import ImageCard from "../ui/reusables/image_card";
 import "./css/services_section.css";
-
+import mini5 from "../../../assets/home/mini5.jpg";
 const services = [
   {
     title: "Audiología",
     description:
       "Realizamos estudios completos de audición en niños y adultos. Contamos con equipos especializados para diagnóstico y tratamiento auditivo.",
-    img: "https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080",
+    img: mini5,
     to: "/servicios/espacios/audiologia",
   },
   {

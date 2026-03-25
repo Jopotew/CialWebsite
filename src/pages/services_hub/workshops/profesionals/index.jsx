@@ -2,6 +2,27 @@ import { Link } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
 import "./profesionals.css";
 
+const talleres = [
+  {
+    title: 'Construyendo Aulas Accesibles',
+    description: 'Crear aulas inclusivas es una responsabilidad que tiene el poder de transformar realidades. La inclusión comienza con pequeños cambios que generan un impacto significativo en la vida de los estudiantes.',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80', // Stock: Aula/Educación
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSeUC1iJG6ZH_8T3ER-frjdnsh4qA2zHEFEAikIexLEWUyAniw/viewform',
+  },
+  {
+    title: 'Impulsando tu Desarrollo y Fortaleciendo tu Práctica',
+    description: 'Un espacio pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad.',
+    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80', // Stock: Colaboración/Profesional
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform',
+  },
+  {
+    title: 'Pasantias 2025',
+    description: 'Brindamos oportunidades únicas de observación y práctica profesional dirigidas a estudiantes avanzados de Fonoaudiología, Psicología, Psicopedagogía, Psicomotricidad, así como a docentes y profesionales en formación.',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80', // Stock: Salud/Práctica
+    link: 'https://docs.google.com/forms/d/e/1FAIpQLSd8lNbT1kDFk0xdmEVwrJlOAHo5tjoS-MuaLt4lce4-iF1alQ/viewform',
+  },
+];
+
 const benefits = [
   "Formación continua en técnicas actualizadas de audiología y fonoaudiología",
   "Intercambio de experiencias con otros profesionales del área",
@@ -12,13 +33,14 @@ const benefits = [
 const ProfessionalsPage = () => {
   return (
     <div className="wdetail-page">
-      <Link to="/services" className="wdetail-page__back">
+      <Link to="/servicios" className="wdetail-page__back">
         <ChevronLeft size={18} />
         <span>Servicios</span>
       </Link>
 
+      {/* Hero Image Principal */}
       <img
-        src="https://images.unsplash.com/photo-1755548413928-4aaeba7c740e?w=1080"
+        src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1080&q=80"
         alt="Talleres para Profesionales"
         className="wdetail-page__hero"
       />
@@ -32,26 +54,30 @@ const ProfessionalsPage = () => {
           metodologías.
         </p>
 
-        {/* Card destacada */}
-        <div className="wdetail-card">
-          <img
-            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1080"
-            alt="Capacitación profesional"
-            className="wdetail-card__img"
-          />
-          <div className="wdetail-card__body">
-            <h2 className="wdetail-card__title">
-              Actualización y Formación Continua
-            </h2>
-            <p className="wdetail-card__text">
-              Nuestros talleres para profesionales están diseñados para
-              ofrecer herramientas actualizadas y metodologías innovadoras.
-              Trabajamos con expertos nacionales e internacionales para
-              brindar la mejor formación en audiología, fonoaudiología y
-              áreas afines.
-            </p>
-            <button className="wdetail-card__btn">Más información</button>
-          </div>
+        {/* Mapeo de los talleres proporcionados */}
+        <div className="wdetail-cards-container">
+          {talleres.map((taller, index) => (
+            <div className="wdetail-card" key={index} style={{ marginBottom: '2.5rem' }}>
+              <img
+                src={taller.image}
+                alt={taller.title}
+                className="wdetail-card__img"
+              />
+              <div className="wdetail-card__body">
+                <h2 className="wdetail-card__title">{taller.title}</h2>
+                <p className="wdetail-card__text">{taller.description}</p>
+                
+                <a 
+                  href={taller.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="wdetail-card__link"
+                >
+                  <button className="wdetail-card__btn">Más información</button>
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Beneficios */}

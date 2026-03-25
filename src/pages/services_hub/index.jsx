@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import "./services_hub.css";
+import miniatura1 from "../../assets/workshop/profesionals/miniatura1.jpg";
 
 const sections = [
   {
@@ -14,7 +15,7 @@ const sections = [
     title: "Talleres para Profesionales",
     description:
       "Capacitaciones y actualizaciones para profesionales del área educativa y social. Formación continua en las últimas técnicas y metodologías.",
-    img: "https://images.unsplash.com/photo-1755548413928-4aaeba7c740e?w=1080",
+    img: miniatura1,
     to: "/servicios/talleres/profesionales",
   },
   {

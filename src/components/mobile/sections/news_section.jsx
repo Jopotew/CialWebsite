@@ -1,19 +1,12 @@
 import ImageCard from "../ui/reusables/image_card";
 import "./css/news_section.css";
-
+import mini6 from "../../../assets/home/mini6.jpg";
 const news = [
-  {
-    title: "Cómo y cuándo es capacitación",
-    description:
-      "Conoce cómo y desde qué edad es importante realizar evaluaciones auditivas en los niños y qué hacer si se detecta un problema...",
-    img: "https://images.unsplash.com/photo-1753705745770-6ceefc22ed33?w=1080",
-    to: "/novedades",
-  },
   {
     title: "Últimas noticias",
     description:
       "Mantente informado sobre las últimas noticias en el campo de la audiología y fonoaudiología. Tips y recomendaciones para el cuidado...",
-    img: "https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080",
+    img: mini6,
     to: "/novedades/noticias",
   },
   {

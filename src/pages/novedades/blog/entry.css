@@ -123,14 +123,13 @@
 /* Imágenes inline dentro del post */
 .blog-post__inline-img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
-  object-position: center;
+  object-position: center;  /* 👈 muestra la parte de arriba, donde suele estar el sujeto */
   border-radius: 0.5rem;
   display: block;
   margin: 1rem 0;
 }
-
 .blog-post-page__not-found {
   padding: 2rem;
   text-align: center;

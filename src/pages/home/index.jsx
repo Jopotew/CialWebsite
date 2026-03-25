@@ -6,22 +6,25 @@ import NewsSection from "../../components/mobile/sections/news_section";
 import Footer from "../../components/mobile/sections/footer";
 
 
-import noticia_img from "../../assets/noticia2.png";
+import slider1 from "../../assets/home/mini1.png";
+import slider2 from "../../assets/home/mini2.jpg";
+import slider3 from "../../assets/home/mini4.jpg";
+
 import { home_text } from "../../textos/home";
 
 const slides = [
   {
-    url: noticia_img,
+    url: slider1,
     title: home_text.slider.slide1.titulo,
     subtitle: home_text.slider.slide1.texto,
   },
   {
-    url: noticia_img,
+    url: slider2,
     title: home_text.slider.slide2.titulo,
     subtitle: home_text.slider.slide2.texto,
   },
   {
-    url: noticia_img,
+    url: slider3,
     title: home_text.slider.slide3.titulo,
     subtitle: home_text.slider.slide3.texto,
   },

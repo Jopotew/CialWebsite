@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
 import "./blog.css";
+import miniatura1 from '../../../assets/blog/miniatura-principito.png';
 
 const posts = [
   {
@@ -8,7 +9,7 @@ const posts = [
     slug: "leer-antes-de-saber-leer",
     title: "Leer antes de saber leer: un viaje al mundo de la primera infancia",
     excerpt: "¿Sabías que la lectura comienza mucho antes de que un niño aprenda a descifrar letras?",
-    img: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=1080", 
+    img: miniatura1,
     author: "Lic. Juliana Lamela y Lic. María Eva Skruta",
     date: "2025",
   },

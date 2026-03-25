@@ -1,12 +1,12 @@
-import img1 from '../../../../assets/Body/Blog/Entry1/1.jpg';
-import img2 from '../../../../assets/Body/Blog/Entry1/2.jpg';
-import img3 from '../../../../assets/Body/Blog/Entry1/3.png';
+import img3 from '../../../../assets/blog/miniatura-principito.png';
+import img2 from '../../../../assets/blog/nene_leyendo.jpg';
+import img1 from '../../../../assets/blog/bebe_leyendo.jpg';
 
 const post = {
   title: "Leer antes de saber leer: un viaje al mundo de la primera infancia",
   author: "Lic. Juliana Lamela y Lic. María Eva Skruta",
   date: "2025",
-  img: img1,
+  img: img3,
   content: (
     <div className="blog-post__content">
 
@@ -37,7 +37,12 @@ const post = {
         imaginar mundos fantásticos.
       </p>
 
-      <img src={img3} alt="Lectura en primera infancia" className="blog-post__inline-img" />
+      
+      <img
+        src={img2}
+        alt="Lectura en primera infancia"
+        className="blog-post__inline-img"
+      />
 
       <h3>El vocabulario: base del aprendizaje</h3>
       <p>
@@ -54,7 +59,12 @@ const post = {
         pensamiento, la imaginación y la comprensión global del mundo.
       </p>
 
-      <img src={img2} alt="Vocabulario en primera infancia" className="blog-post__inline-img" />
+      
+      <img
+        src={img1}
+        alt="Vocabulario en primera infancia"
+        className="blog-post__inline-img"
+      />
 
       <h3>La lectura como un proceso integral</h3>
       <p>La lectura en la primera infancia es un proceso de múltiples capas:</p>

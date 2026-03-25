@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
 import "./family.css";
+import miniatura1 from "../../../../assets/workshop/parents/lectura-en-casa.jpg";
+import miniatura2 from "../../../../assets/workshop/parents/talleres-padres.jpg";
 
 const benefits = [
   "Aprende de profesionales experimentados en audiología y fonoaudiología",
@@ -12,13 +14,13 @@ const benefits = [
 const FamiliesPage = () => {
   return (
     <div className="wdetail-page">
-      <Link to="/services" className="wdetail-page__back">
+      <Link to="/servicios" className="wdetail-page__back">
         <ChevronLeft size={18} />
         <span>Servicios</span>
       </Link>
 
       <img
-        src="https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080"
+        src={miniatura1}
         alt="Talleres para Familias"
         className="wdetail-page__hero"
       />
@@ -35,7 +37,7 @@ const FamiliesPage = () => {
         {/* Card destacada */}
         <div className="wdetail-card">
           <img
-            src="https://images.unsplash.com/photo-1491013516836-7db643ee125a?w=1080"
+            src={miniatura2}
             alt="Fortaleciendo el aprendizaje en casa"
             className="wdetail-card__img"
           />
@@ -51,8 +53,16 @@ const FamiliesPage = () => {
               guiar a sus hijos en el desarrollo de sus habilidades de
               comunicación, escucha y habla.
             </p>
-            <button className="wdetail-card__btn">Más información</button>
-          </div>
+            
+            <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSduT8Esk_kMgGiOj-AiX2NA_jVmL5aUfZHtj6paxGKKWtvpUg/viewform" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="wdetail-card__link-wrapper"
+            >
+              <button className="wdetail-card__btn">Más información</button>
+            </a>
+          </div> 
         </div>
 
         {/* Beneficios */}
