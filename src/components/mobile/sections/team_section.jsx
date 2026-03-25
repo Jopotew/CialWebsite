@@ -1,11 +1,13 @@
 import ImageCard from "../ui/reusables/image_card";
 import "./css/team_section.css";
 
+import mini_all from "../../../assets/home/mini-team.jpg";
+
 const members = [
   {
     description:
       "Profesionales altamente capacitados en diagnóstico y tratamiento auditivo. Con más de 15 años acompañando a niños y adultos.",
-    img: "https://images.unsplash.com/photo-1731419711677-cb2387cfc557?w=1080",
+    img: mini_all,
     to: "/equipo",
   },
 ];
