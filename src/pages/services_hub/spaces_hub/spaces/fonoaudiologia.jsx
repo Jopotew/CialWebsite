@@ -1,14 +1,10 @@
-import InformativePageMobile from "../../../../components/mobile/ui/reusables/informative_page";
+import { useDevice } from "../../../../hooks/useDevice";
+import Mobile from "./fonoaudiologia_mobile";
+import Desktop from "./fonoaudiologia_desktop";
 
-import { spaces_texts } from "../../../../textos/spaces";
+const Page = () => {
+  const { isMobile } = useDevice();
+  return isMobile ? <Mobile /> : <Desktop />;
+};
 
-const FonoaudiologiaPage = () => (
-  <InformativePageMobile
-    title={spaces_texts.fonoaudiologia.titulo}
-    image="https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080"
-    paragraphs={spaces_texts.fonoaudiologia.parrafos}
-    backTo="/servicios/espacios"
-  />
-);
-
-export default FonoaudiologiaPage;
+export default Page;

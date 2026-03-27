@@ -1,46 +1,10 @@
-import HeroSlider from "../../components/mobile/sections/hero_slider";
-import AboutSection from "../../components/mobile/sections/about_section";
-import TeamSection from "../../components/mobile/sections/team_section";
-import ServicesSection from "../../components/mobile/sections/services_section";
-import NewsSection from "../../components/mobile/sections/news_section";
-import Footer from "../../components/mobile/sections/footer";
-
-
-import slider1 from "../../assets/home/mini1.png";
-import slider2 from "../../assets/home/mini2.jpg";
-import slider3 from "../../assets/home/mini4.jpg";
-
-import { home_text } from "../../textos/home";
-
-const slides = [
-  {
-    url: slider1,
-    title: home_text.slider.slide1.titulo,
-    subtitle: home_text.slider.slide1.texto,
-  },
-  {
-    url: slider2,
-    title: home_text.slider.slide2.titulo,
-    subtitle: home_text.slider.slide2.texto,
-  },
-  {
-    url: slider3,
-    title: home_text.slider.slide3.titulo,
-    subtitle: home_text.slider.slide3.texto,
-  },
-];
+import { useDevice } from "../../hooks/useDevice";
+import HomeMobile from "./home_mobile";
+import HomeDesktop from "./home_desktop";
 
 const Home = () => {
-  return (
-    <div className="home_container">
-      <HeroSlider slides={slides} />
-      <AboutSection />
-      <TeamSection />
-      <ServicesSection />
-      <NewsSection />
-      <Footer />
-    </div>
-  );
+  const { isMobile } = useDevice();
+  return isMobile ? <HomeMobile /> : <HomeDesktop />;
 };
 
 export default Home;
