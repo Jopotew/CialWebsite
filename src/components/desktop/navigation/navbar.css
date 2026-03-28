@@ -1,0 +1,129 @@
+/* Ocultar en móviles, mostrar solo en desktop */
+.navbar-desktop {
+  display: none;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+  height: 70px;
+}
+
+@media (min-width: 768px) {
+  .navbar-desktop {
+    display: block;
+  }
+}
+
+.navbar-desktop__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+/* Logo */
+.navbar-desktop__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #1f2937;
+}
+
+.logo-circle {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+/* Menu */
+.navbar-desktop__menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-desktop__item {
+  position: relative;
+}
+
+.navbar-desktop__link {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1rem 0;
+  transition: color 0.2s;
+}
+
+.navbar-desktop__link:hover, .navbar-desktop__link.active {
+  color: #7c3aed;
+}
+
+/* Dropdown Logic */
+.navbar-desktop__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  min-width: 180px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f3f4f6;
+  border-radius: 8px;
+  list-style: none;
+  padding: 0.5rem 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.2s ease;
+}
+
+.navbar-desktop__item:hover .navbar-desktop__dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-link {
+  display: block;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  color: #374151;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.dropdown-link:hover {
+  background-color: #f5f3ff;
+  color: #7c3aed;
+}
+
+.chevron {
+  transition: transform 0.2s;
+}
+
+.navbar-desktop__item:hover .chevron {
+  transform: rotate(180deg);
+}
