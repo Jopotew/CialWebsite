@@ -1,1 +1,5 @@
-/* home desktop css — pendiente */
+.home-desktop {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+}

@@ -1,11 +1,12 @@
-// Desktop — pendiente
+import InformativePageDesktop from "./informative_page_desktop";
+import { spaces_texts } from "../../../../textos/spaces";
 
-function AudiologiaDesktop() {
-  return (
-    <div>
-      <h1>Audiología Desktop</h1>
-    </div>
-  );
-}
-
-export default AudiologiaDesktop;
+const FonoaudiologiaDesktop = () => (
+  <InformativePageDesktop
+    title={spaces_texts.fonoaudiologia.titulo}
+    image="https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080"
+    paragraphs={spaces_texts.fonoaudiologia.parrafos}
+    backTo="/servicios/espacios"
+  />
+);
+export default FonoaudiologiaDesktop;

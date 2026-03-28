@@ -17,6 +17,7 @@ import AudiologiaPage from "./pages/services_hub/spaces_hub/spaces/audiologia";
 import FonoaudiologiaPage from "./pages/services_hub/spaces_hub/spaces/fonoaudiologia";
 import PsicologiaPage from "./pages/services_hub/spaces_hub/spaces/psicologia";
 import PsicomotricidadPage from "./pages/services_hub/spaces_hub/spaces/psicomotricidad";
+import PsicopedagogiaPage from "./pages/services_hub/spaces_hub/spaces/psicopedagogia";
 import RehabilitacionPage from "./pages/services_hub/spaces_hub/spaces/rehabilitacion";
 import NovedadesPage      from "./pages/novedades";
 import NoticiasListPage   from "./pages/novedades/news";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/servicios/espacios"                      element={<EspaciosPage />} />
           <Route path="/servicios/espacios/audiologia"           element={<AudiologiaPage />} />
           <Route path="/servicios/espacios/fonoaudiologia"      element={<FonoaudiologiaPage />} />
+          <Route path="/servicios/espacios/psicopedagogia"      element={<PsicopedagogiaPage />} />
           <Route path="/servicios/espacios/psicologia"          element={<PsicologiaPage />} />
           <Route path="/servicios/espacios/psicomotricidad"     element={<PsicomotricidadPage />} />
           <Route path="/servicios/espacios/rehabilitacion-auditiva"      element={<RehabilitacionPage />} />

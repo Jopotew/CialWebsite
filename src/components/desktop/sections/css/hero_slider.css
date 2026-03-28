@@ -1,0 +1,79 @@
+.hero-slider-desktop {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-slider-desktop__slide {
+  position: relative;
+  width: 100%;
+}
+
+.hero-slider-desktop__img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero-slider-desktop__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 30%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-slider-desktop__text {
+  padding: 2.5rem 4rem;
+  color: #ffffff;
+  max-width: 700px;
+}
+
+.hero-slider-desktop__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  line-height: 1.25;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.hero-slider-desktop__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.92;
+  line-height: 1.6;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Dots */
+.hero-slider-desktop .slick-dots {
+  bottom: 16px;
+}
+
+.hero-slider-desktop .slick-dots li button::before {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 9px;
+}
+
+.hero-slider-desktop .slick-dots li.slick-active button::before {
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* Arrows */
+.hero-slider-desktop .slick-prev,
+.hero-slider-desktop .slick-next {
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+}
+
+.hero-slider-desktop .slick-prev { left: 20px; }
+.hero-slider-desktop .slick-next { right: 20px; }

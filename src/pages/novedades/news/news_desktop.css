@@ -1,1 +1,111 @@
-/* news desktop css — pendiente */
+.noticias-dt {
+  background-color: #f9fafb;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.noticias-dt__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 2rem;
+  color: #7c3aed;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.noticias-dt__back:hover { opacity: 0.75; }
+
+.noticias-dt__header {
+  padding: 0.5rem 2rem 2rem;
+  text-align: center;
+}
+
+.noticias-dt__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7c3aed;
+  margin-bottom: 0.4rem;
+}
+
+.noticias-dt__subtitle {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* Grid 3 columnas */
+.noticias-dt__grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.noticia-dt-card {
+  display: block;
+  background: #ffffff;
+  border-radius: 0.85rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.noticia-dt-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.12);
+}
+
+.noticia-dt-card__img-wrap {
+  position: relative;
+}
+
+.noticia-dt-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.noticia-dt-card__badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+}
+
+.noticia-dt-card__body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.noticia-dt-card__source {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  color: #9ca3af;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.noticia-dt-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+}
+
+.noticia-dt-card__desc {
+  font-size: 0.875rem;
+  color: #6b7280;
+  line-height: 1.6;
+}

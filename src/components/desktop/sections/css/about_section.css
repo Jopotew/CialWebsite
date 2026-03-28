@@ -1,0 +1,47 @@
+.about-section-desktop {
+  background-color: #f9fafb;
+  padding: 5rem 2rem;
+}
+
+.about-section-desktop__inner {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section-desktop__title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7c3aed;
+  margin-bottom: 1.5rem;
+}
+
+.about-section-desktop__p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+  text-indent: 2rem;
+  text-align: left;
+}
+
+.about-section-desktop__btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.85rem 2.5rem;
+  background-color: #9333ea;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.about-section-desktop__btn:hover {
+  background-color: #7c3aed;
+}
+
+.about-section-desktop__btn:active {
+  transform: scale(0.98);
+}
