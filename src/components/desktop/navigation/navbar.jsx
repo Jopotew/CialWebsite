@@ -1,6 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import "./navbar.css";
+import logo from '../../../assets/cial_logo.png';
+
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -33,7 +35,11 @@ const Navbar = () => {
       <div className="navbar-desktop__container">
         {/* Logo y Nombre */}
         <Link to="/" className="navbar-desktop__logo">
-          <div className="logo-circle">Logo</div>
+          <img
+            src={logo}
+            alt="Logo CIAL"
+            style={{ width: "45px", height: "45px", objectFit: "contain" }}
+          />
           <span className="logo-text">C.I.A.L</span>
         </Link>
 
