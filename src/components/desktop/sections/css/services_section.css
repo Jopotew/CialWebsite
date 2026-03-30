@@ -51,7 +51,7 @@
 .service-card-desktop__title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .service-card-desktop__desc {
@@ -63,6 +63,6 @@
 .service-card-desktop__cta {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #9333ea;
+  color: #5927af;
   margin-top: 0.25rem;
 }
