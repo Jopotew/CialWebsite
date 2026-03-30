@@ -1,0 +1,18 @@
+En el servicios, poner Talleres - Asesorias - Espacios 
+las 3 van a la misma pagina. /servicios
+
+queda hacer el /asesorias -> lleva al link del docs. 
+"https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform?pli=1"
+
+hacer el footer, ver como agregar la foto que queria.
+
+Acomodar la carpeta assets para que sea mas organizada. 
+
+
+
+
+
+
+
+
+

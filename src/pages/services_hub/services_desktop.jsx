@@ -19,12 +19,21 @@ const sections = [
     to: "/servicios/talleres/profesionales",
   },
   {
-    title: "Espacios",
+    title: "Espacios Especializados",
     description:
       "Conocé nuestros espacios especializados: Audiología, Fonoaudiología, Psicología, Psicopedagogía y más.",
     img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
     to: "/servicios/espacios",
   },
+  {
+    title: "Asesorías y Supervisiones",
+    description:
+      "Un espacio pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad",
+    img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
+    to: "https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform?pli=1",
+    target: "_blank",
+  },
+
 ];
 
 const ServicesDesktop = () => {
@@ -38,19 +47,48 @@ const ServicesDesktop = () => {
       </div>
 
       <div className="services-dt__grid">
-        {sections.map((s) => (
-          <Link to={s.to} key={s.title} className="services-dt-card">
-            <img src={s.img} alt={s.title} className="services-dt-card__img" />
-            <div className="services-dt-card__body">
-              <h2 className="services-dt-card__title">{s.title}</h2>
-              <p className="services-dt-card__desc">{s.description}</p>
-              <div className="services-dt-card__footer">
-                <span className="services-dt-card__cta">Ver detalles</span>
-                <ArrowRight size={18} className="services-dt-card__arrow" />
+        {sections.map((s) => {
+          // Definimos las propiedades comunes para no repetir código
+          const commonProps = {
+            key: s.title,
+            className: "services-dt-card"
+          };
+
+          // Contenido interno de la card (lo que se ve)
+          const CardContent = (
+            <>
+              <img src={s.img} alt={s.title} className="services-dt-card__img" />
+              <div className="services-dt-card__body">
+                <h2 className="services-dt-card__title">{s.title}</h2>
+                <p className="services-dt-card__desc">{s.description}</p>
+                <div className="services-dt-card__footer">
+                  <span className="services-dt-card__cta">Ver detalles</span>
+                  <ArrowRight size={18} className="services-dt-card__arrow" />
+                </div>
               </div>
-            </div>
-          </Link>
-        ))}
+            </>
+          );
+
+          // Lógica de decisión: ¿Es link externo o interno?
+          if (s.target === "_blank") {
+            return (
+              <a 
+                href={s.to} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                {...commonProps}
+              >
+                {CardContent}
+              </a>
+            );
+          }
+
+          return (
+            <Link to={s.to} {...commonProps}>
+              {CardContent}
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
