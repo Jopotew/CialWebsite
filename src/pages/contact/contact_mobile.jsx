@@ -95,17 +95,6 @@ const ContactoPage = () => {
 
       </div>
 
-      <div className="contacto-page__wpp">
-        <a
-          href="https://wa.me/5492995079658"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contacto-wpp-btn"
-        >
-          <img src={wppLogo} alt="WhatsApp" className="contacto-wpp-btn__logo" />
-          Escribinos por WhatsApp
-        </a>
-      </div>
 
     </div>
   );
