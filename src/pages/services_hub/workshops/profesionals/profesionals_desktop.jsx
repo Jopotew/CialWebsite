@@ -10,13 +10,7 @@ const talleres = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeUC1iJG6ZH_8T3ER-frjdnsh4qA2zHEFEAikIexLEWUyAniw/viewform",
   },
   {
-    title: "Impulsando tu Desarrollo y Fortaleciendo tu Práctica",
-    description: "Un espacio pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad.",
-    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform",
-  },
-  {
-    title: "Pasantias 2025",
+    title: "Pasantias 2026",
     description: "Brindamos oportunidades únicas de observación y práctica profesional dirigidas a estudiantes avanzados de Fonoaudiología, Psicología, Psicopedagogía, Psicomotricidad, así como a docentes y profesionales en formación.",
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd8lNbT1kDFk0xdmEVwrJlOAHo5tjoS-MuaLt4lce4-iF1alQ/viewform",
