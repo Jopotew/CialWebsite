@@ -51,9 +51,9 @@ const ContactoPageDesktop = () => {
               <Phone size={20} className="contacto-card__icon" />
             </div>
             <div className="contacto-card__body">
-              <span className="contacto-card__label">Teléfono General</span>
+              <span className="contacto-card__label">Rehabilitacion</span>
               <a href="tel:+5492995079658" className="contacto-card__value contacto-card__value--link">
-                +54 9 299 507-9658
+                +54 9 299 155079658
               </a>
             </div>
           </div>
@@ -64,21 +64,11 @@ const ContactoPageDesktop = () => {
             <div className="contacto-card__body">
               <span className="contacto-card__label">Audiología</span>
               <a href="tel:+5492995079658" className="contacto-card__value contacto-card__value--link">
-                +54 9 299 507-XXXX
+                +54 9 299 5575035
               </a>
             </div>
           </div>
-          <div className="contacto-card">
-            <div className="contacto-card__icon-wrap">
-              <img src={wppLogo} alt="WhatsApp" className="contacto-card__logo" />
-            </div>
-            <div className="contacto-card__body">
-              <span className="contacto-card__label">WhatsApp</span>
-              <a href="https://wa.me/5492995079658" target="_blank" rel="noopener noreferrer" className="contacto-card__value contacto-card__value--link">
-                +54 9 299 507-9658
-              </a>
-            </div>
-          </div>
+          
           <div className="contacto-card">
             <div className="contacto-card__icon-wrap">
               <img src={instaLogo} alt="Instagram" className="contacto-card__logo" />
