@@ -19,7 +19,7 @@ const sections = [
     to: "/servicios/talleres/profesionales",
   },
   {
-    title: "Servicios",
+    title: "Nuestros servicios",
     description:
       "Conocé nuestros espacios especializados: Audiología, Fonoaudiología, Psicología, Psicopedagogía y más.",
     img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",

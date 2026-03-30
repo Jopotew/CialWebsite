@@ -1,5 +1,4 @@
 import { MapPin, Mail, Phone } from "lucide-react";
-import wppLogo from "../../assets/whatsapp_logo.jpg";
 import instaLogo from "../../assets/instagram_logo.png";
 import "./contact_desktop.css";
 
