@@ -9,7 +9,7 @@
   align-items: center;
   gap: 0.25rem;
   padding: 1rem 2rem;
-  color: #7c3aed;
+  color: #5927af;
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
@@ -26,7 +26,7 @@
 .noticias-dt__title {
   font-size: 2rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.4rem;
 }
 

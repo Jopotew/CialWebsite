@@ -48,7 +48,7 @@
 .footer-dt__phrase {
   font-size: 1.3rem;
   font-weight: 600;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.75rem;
 }
 
@@ -95,7 +95,7 @@
   gap: 0.4rem;
   font-size: 0.9rem;
   text-decoration: none;
-  color: #7c3aed;
+  color: #5927af;
   font-weight: 500;
   transition: opacity 0.2s;
   white-space: nowrap;

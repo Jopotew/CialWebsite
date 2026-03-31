@@ -11,7 +11,7 @@
 .novedades-page__title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   text-align: center;
   margin-bottom: 0.35rem;
 }
@@ -63,14 +63,14 @@
 }
 
 .novedades-card__icon {
-  color: #7c3aed;
+  color: #5927af;
   flex-shrink: 0;
 }
 
 .novedades-card__title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .novedades-card__desc {
@@ -89,9 +89,9 @@
 .novedades-card__cta {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .novedades-card__arrow {
-  color: #7c3aed;
+  color: #5927af;
 }

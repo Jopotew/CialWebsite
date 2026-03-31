@@ -13,7 +13,7 @@
 .contacto-page__title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   text-align: center;
   margin-bottom: 0.3rem;
 }
@@ -67,7 +67,7 @@
 }
 
 .contacto-card__icon {
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .contacto-card__logo {
@@ -102,7 +102,7 @@
 }
 
 .contacto-card__value--link {
-  color: #7c3aed;
+  color: #5927af;
   text-decoration: none;
 }
 

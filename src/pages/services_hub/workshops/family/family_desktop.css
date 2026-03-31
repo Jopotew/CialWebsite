@@ -9,7 +9,7 @@
   align-items: center;
   gap: 0.25rem;
   padding: 1rem 2rem;
-  color: #7c3aed;
+  color: #5927af;
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
@@ -112,7 +112,7 @@
   display: block;
   width: 100%;
   padding: 0.8rem;
-  background-color: #7c3aed;
+  background-color: #5927af;
   color: #ffffff;
   font-size: 0.9rem;
   font-weight: 600;
@@ -136,7 +136,7 @@
 .family-dt-benefits__title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   text-align: center;
   margin-bottom: 1.5rem;
 }

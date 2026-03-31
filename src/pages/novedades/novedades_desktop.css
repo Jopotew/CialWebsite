@@ -12,7 +12,7 @@
 .novedades-dt__title {
   font-size: 2.25rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.5rem;
 }
 
@@ -65,14 +65,14 @@
 }
 
 .novedades-dt-card__icon {
-  color: #7c3aed;
+  color: #5927af;
   flex-shrink: 0;
 }
 
 .novedades-dt-card__title {
   font-size: 1.35rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .novedades-dt-card__desc {
@@ -91,9 +91,9 @@
 .novedades-dt-card__cta {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .novedades-dt-card__arrow {
-  color: #7c3aed;
+  color: #5927af;
 }
