@@ -1,6 +1,7 @@
 import ImageCard from "../ui/reusables/image_card";
 import "./css/services_section.css";
 import mini5 from "../../../assets/home/mini5.jpg";
+
 const services = [
   {
     title: "Talleres",

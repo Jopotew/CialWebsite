@@ -4,23 +4,23 @@ import mini5 from "../../../assets/home/mini5.jpg";
 
 const services = [
   {
-    title: "Audiología",
-    description:
-      "Realizamos estudios completos de audición en niños y adultos. Contamos con equipos especializados para diagnóstico y tratamiento auditivo.",
-    img: mini5,
-    to: "/servicios/espacios/audiologia",
-  },
-  {
-    title: "Rehabilitación Auditiva",
-    description:
-      "Tratamiento y terapia del lenguaje y la comunicación. Trabajamos con niños y adultos en problemas de habla, lenguaje y deglución.",
-    img: "https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080",
-    to: "/servicios/espacios/rehabilitacion-auditiva",
-  },
-  {
-    title: "Talleres y Espacios",
+    title: "Talleres",
     description:
       "Ofrecemos talleres grupales de estimulación del lenguaje y desarrollo de habilidades comunicativas.",
+    img: mini5,
+    to: "/servicios/",
+  },
+  {
+    title: "Asesorias y Supervisiones",
+    description:
+      "Pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad",
+    img: "https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080",
+    to: "/servicios/",
+  },
+  {
+    title: "Servicios",
+    description:
+      "Diseñados para el aprendizaje y la interacción.",
     img: "https://images.unsplash.com/photo-1766932901295-d4185660341b?w=1080",
     to: "/servicios",
   },
