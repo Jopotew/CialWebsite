@@ -11,7 +11,7 @@
   align-items: center;
   gap: 0.25rem;
   padding: 1rem 2rem;
-  color: #7c3aed;
+  color: #5927af;
   font-size: 0.875rem;
   font-weight: 600;
   text-decoration: none;
@@ -50,7 +50,7 @@
 .owner-dt__badge {
   display: inline-block;
   background-color: #f3e8ff;
-  color: #7c3aed;
+  color: #5927af;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.07em;
@@ -85,7 +85,7 @@
 
 .owner-dt__quote-mark {
   font-size: 1.5rem;
-  color: #d8b4fe;
+  color: #5927af;
   font-family: Georgia, serif;
   line-height: 0;
   vertical-align: -0.4em;
@@ -121,7 +121,7 @@
 .owner-dt__gallery-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -155,12 +155,12 @@
 }
 
 .owner-dt__gallery .slick-dots li button::before {
-  color: #9333ea;
+  color: #5927af;
   font-size: 8px;
 }
 
 .owner-dt__gallery .slick-dots li.slick-active button::before {
-  color: #7c3aed;
+  color: #5927af;
 }
 
 /* Arrows */

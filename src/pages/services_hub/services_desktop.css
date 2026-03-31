@@ -12,7 +12,7 @@
 .services-dt__title {
   font-size: 2.25rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.5rem;
 }
 
@@ -73,7 +73,7 @@
 .services-dt-card__title {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.5rem;
 }
 
@@ -95,9 +95,9 @@
 .services-dt-card__cta {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .services-dt-card__arrow {
-  color: #7c3aed;
+  color: #5927af;
 }

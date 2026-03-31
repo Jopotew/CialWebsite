@@ -11,7 +11,7 @@
 .contacto-desktop__title {
   font-size: 2rem;
   font-weight: 800;
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .contacto-desktop__subtitle {
@@ -72,11 +72,11 @@
 }
 
 .contacto-card__icon {
-  color: #7c3aed;
+  color: #5927af;
 }
 
 .contacto-card__icon--audio {
-  color: #16a34a;
+  color: #5927af;
 }
 
 .contacto-card__logo {
