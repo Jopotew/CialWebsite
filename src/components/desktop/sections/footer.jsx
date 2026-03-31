@@ -1,56 +1,69 @@
-import { MessageCircle, MapPin, Mail } from "lucide-react";
-import "./css/footer.css";
+import React from 'react';
+import './css/footer.css';
+import instaLogo from '../../../assets/instagram_logo.png';
+import logo from '../../../assets/Logo/logo_sin_texto.png';
+import decorImg from '../../../assets/Body/Inicio/14.jpeg';
+import wppLogo from '../../../assets/whatsapp_logo.jpg';
 
-const Footer = () => {
+function FooterDesktop() {
   return (
-    <footer className="footer-desktop">
-      <div className="footer-desktop__inner">
+    <footer className="footer-dt">
+      <hr className="footer-dt__divider" />
 
-        <div className="footer-desktop__col">
-          <h3 className="footer-desktop__brand">CIAL</h3>
-          <p className="footer-desktop__tagline">
-            Centro Integral de Audiología y Lenguaje
-          </p>
+      <div className="footer-dt__container">
+
+        <div className="footer-dt__left">
+          <img src={decorImg} alt="Decoración" className="footer-dt__decor-img" />
         </div>
 
-        <div className="footer-desktop__col">
-          <h4 className="footer-desktop__col-title">Contacto</h4>
-          <p className="footer-desktop__item">
-            <MapPin size={15} />
-            <span>Luis Toschi 258, Cipolletti, Río Negro</span>
-          </p>
-          <p className="footer-desktop__item">
-            <MessageCircle size={15} />
-            <a href="https://wa.me/5492995079658" target="_blank" rel="noopener noreferrer">
-              +54 9 299 507-9658
-            </a>
-          </p>
-          <p className="footer-desktop__item">
-            <Mail size={15} />
-            <a href="mailto:cial.nqn@gmail.com">cial.nqn@gmail.com</a>
-          </p>
-        </div>
+        <div className="footer-dt__center">
+          <p className="footer-dt__phrase">"#EscucharNosHaceBien."</p>
+          <img src={logo} alt="Logo CIAL" className="footer-dt__logo" />
 
-        <div className="footer-desktop__col">
-          <h4 className="footer-desktop__col-title">Redes</h4>
-          <p className="footer-desktop__item">
-            <a
-              href="https://instagram.com/cialconsultorios"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @cialconsultorios
-            </a>
-          </p>
+          <div className="footer-dt__info">
+            <p>Luis Toschi 258, Cipolletti, Río Negro</p>
+            <p>cial.nqn@gmail.com</p>
+            
+            <div className="footer-dt__socials">
+              <a
+                href="https://wa.me/5492995079658"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-dt__social-link"
+              >
+                <img src={wppLogo} alt="WhatsApp" className="footer-dt__social-icon" />
+                <span><strong>Rehabilitación:</strong> +54 9 299 507-9658</span>
+              </a>
+              
+              <a
+                href="https://wa.me/54929950700000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-dt__social-link"
+              >
+                <img src={wppLogo} alt="WhatsApp" className="footer-dt__social-icon" />
+                <span><strong>Audiología:</strong> +54 9 299 507-XXXX</span>
+              </a>
+
+              <a
+                href="https://instagram.com/cialconsultorios"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-dt__social-link"
+              >
+                <img src={instaLogo} alt="Instagram" className="footer-dt__social-icon" />
+                <span>@cialconsultorios</span>
+              </a>
+            </div>
+          </div>
         </div>
 
       </div>
 
-      <div className="footer-desktop__bottom">
-        © 2025 CIAL - Todos los derechos reservados
-      </div>
+      <hr className="footer-dt__divider" />
+      
     </footer>
   );
-};
+}
 
-export default Footer;
+export default FooterDesktop;
