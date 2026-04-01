@@ -8,7 +8,7 @@
 .about-section__title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #7c3aed;              /* purple-700 */
+  color: #5927af;              /* purple-700 */
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -47,7 +47,7 @@
 }
 
 .about-section__btn:hover {
-  background-color: #7c3aed;   /* purple-700 */
+  background-color: #5927af;   /* purple-700 */
 }
 
 .about-section__btn:active {

@@ -31,7 +31,7 @@
 .image-card__title {
   font-size: 1.15rem;
   font-weight: 700;
-  color: #7c3aed;
+  color: #5927af;
   margin-bottom: 0.5rem;
 }
 
@@ -49,7 +49,7 @@
   width: calc(100% - 1.25rem);
   padding: 0.65rem;
 
-  background-color: #9333ea;
+  background-color: #5927af;
   color: #ffffff;
   font-size: 0.875rem;
   font-weight: 600;
@@ -61,7 +61,7 @@
 }
 
 .image-card__btn:hover {
-  background-color: #7c3aed;
+  background-color: #5927af;
 }
 
 .image-card__btn:active {
@@ -72,7 +72,7 @@
 /* ===== VARIANTE LINK (para noticias) ===== */
 .image-card__link {
   display: inline-block;
-  color: #7c3aed;
+  color: #5927af;
   font-size: 0.8rem;
   font-weight: 700;
   text-decoration: none;
