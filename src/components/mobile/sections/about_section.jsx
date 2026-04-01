@@ -16,9 +16,6 @@ const AboutSection = () => {
         {home_text.intro.parrafos[1]}
       </p>
 
-      <Link to="/equipo" className="about-section__btn">
-        Conocer más
-      </Link>
     </section>
   );
 };

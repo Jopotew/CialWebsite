@@ -16,9 +16,6 @@ const AboutSection = () => {
           <p className="about-section-desktop__p">
             {home_text.intro.parrafos[1]}
           </p>
-          <Link to="/equipo" className="about-section-desktop__btn">
-            Conocer más
-          </Link>
         </div>
       </div>
     </section>
