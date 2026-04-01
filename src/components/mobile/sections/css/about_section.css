@@ -32,7 +32,7 @@
   padding: 0.85rem 1.5rem;   
   box-sizing: border-box;
 
-  background-color: #9333ea;   
+  background-color: #5927af;   
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 600;
@@ -47,7 +47,7 @@
 }
 
 .about-section__btn:hover {
-  background-color: #5927af;   /* purple-700 */
+  background-color: #703bcc;   /* purple-700 */
 }
 
 .about-section__btn:active {
