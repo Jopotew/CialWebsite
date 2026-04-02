@@ -6,6 +6,8 @@ import bastian from "../../../assets/news/bastian.png";
 import suyai   from "../../../assets/news/suyai.png";
 import anahi   from "../../../assets/news/anahi.png";
 import lolo from "../../../assets/news/lolo.png";
+import delfina from "../../../assets/news/delfina.png";
+import lucia from "../../../assets/news/lucia.png";
 import "./news_desktop.css";
 
 const noticias = [
@@ -26,6 +28,24 @@ const noticias = [
     url: "https://www.instagram.com/reel/C20m_cKOnb5/?igsh=OXBzcWVyN2t4YWx0",
     type: "video",
     source: "Instagram",
+  },
+  {
+    id: 2,
+    title: "Historias que inspiran: Delfina",
+    description: " Delfina Pintos ella es usuaria de implante coclear desde los dos años y medio. Ella ahora disfruta los diálogos con sus amigos, escucha con atención a sus profesores, ama los sonidos de la naturaleza y practica acrobacias.",
+    img: delfina,
+    url: "https://www.youtube.com/watch?v=fpzHSjhU8Qw",
+    type: "video",
+    source: "Youtube",
+  },
+  {
+    id: 2,
+    title: "Historias que inspiran: Lucia",
+    description: "Lucía Cordero es una niña que fue implantada desde muy pequeña. Su vida es como la de cualquier otro niño de su edad gracias a su implante coclear.",
+    img: lucia,
+    url: "www.youtube.com/watch?si=EBoNaqAq60CdV28Y&v=Z4-NKX0oDa4&feature=youtu.be",
+    type: "video",
+    source: "Youtube",
   },
   {
     id: 3,

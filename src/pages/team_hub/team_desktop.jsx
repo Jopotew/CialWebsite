@@ -22,7 +22,7 @@ const members = [
   {
     image: adriana,
     name: "Lic. Adriana Dietrich",
-    description: "Psicomotricidad",
+    description: "Psicomotricista",
   },
   {
     image: maria_sol,
@@ -31,7 +31,7 @@ const members = [
   },
   {
     image: ana,
-    name: "Lic. Ana Swchab.",
+    name: "Lic. Ana Swchab",
     description: "Fonoaudióloga · Prompt Bridging Trained · Especialista en CAA",
   },
   {
