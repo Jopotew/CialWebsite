@@ -5,6 +5,7 @@ import maxi    from "../../../assets/news/maxi.png";
 import bastian from "../../../assets/news/bastian.png";
 import suyai   from "../../../assets/news/suyai.png";
 import anahi   from "../../../assets/news/anahi.png";
+import lolo from "../../../assets/news/lolo.png";
 import "./news_desktop.css";
 
 const noticias = [
@@ -53,6 +54,16 @@ const noticias = [
     type: "video",
     source: "Instagram",
   },
+  {
+      id: 6,
+      title: "Las antenitas de Lolo",
+      description: "Lorenzo tiene siete años, es de Neuquén y adquirió una hipoacusia bilateral al nacer. Fue implantado y la sordera quedó atrás",
+      img: lolo,
+      url: "https://www.rionegro.com.ar/sociedad/las-antenitas-de-lolo-conocio-los-sonidos-con-implantes-cocleares-y-su-vida-cambio-para-siempre/",
+      type: "articulo",
+      source: "Río Negro",
+    },
+  
 ];
 
 const typeBadge = {
