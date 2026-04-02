@@ -20,7 +20,8 @@
 }
 
 .service-card-desktop {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #ffffff;
   border-radius: 1rem;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -46,6 +47,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  height: calc(100% - 220px); /* resta la altura de la imagen */
+  justify-content: space-between; /* 👈 */
 }
 
 .service-card-desktop__title {
@@ -58,11 +61,13 @@
   font-size: 0.9rem;
   color: #374151;
   line-height: 1.65;
+  flex: 1;
 }
 
 .service-card-desktop__cta {
   font-size: 0.875rem;
   font-weight: 600;
   color: #5927af;
-  margin-top: 0.25rem;
+  margin-top: auto; 
+  text-transform: uppercase;
 }

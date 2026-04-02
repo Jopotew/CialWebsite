@@ -19,11 +19,12 @@ const sections = [
     to: "/servicios/talleres/profesionales",
   },
   {
-    title: "Espacios",
+    title: "Asesorías y Supervisiones",
     description:
-      "Conocé nuestros espacios especializados: Audiología, Fonoaudiología, Psicología, Psicopedagogía y más.",
+      "Un espacio pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad",
     img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
-    to: "/servicios/espacios",
+    to: "https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform?pli=1",
+    target: "_blank",
   },
 ];
 

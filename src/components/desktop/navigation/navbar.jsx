@@ -14,9 +14,21 @@ const Navbar = () => {
       label: "Servicios", 
       to: "/servicios",
       submenu: [
-        { label: "Talleres", to: "/servicios/talleres" },
-        { label: "Audiología", to: "/servicios/espacios/audiologia" },
-        { label: "Rehabilitación", to: "/servicios/espacios/rehabilitacion-auditiva" },
+        { label: "Familias", to: "/servicios/talleres/familias" },
+        { label: "Profesionales", to: "/servicios/talleres/profesionales" },
+        { label: "Asesorias", to: "/servicios/" },
+      ]
+    },
+    { 
+      label: "Espacios", 
+      to: "/espacios",
+      submenu: [
+        { label: "Audiología", to: "/espacios/audiologia" },
+        { label: "Fonoaudiología", to: "/espacios/fonoaudiologia" },
+        { label: "Psicopedagogía", to: "/espacios/psicopedagogia" },
+        { label: "Psicología", to: "/espacios/psicologia" },
+        { label: "Psicomotricidad", to: "/espacios/psicomotricidad" },
+        { label: "Rehabilitación Auditiva", to: "/espacios/rehabilitacion-auditiva" },
       ]
     },
     { 

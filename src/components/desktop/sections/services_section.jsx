@@ -18,11 +18,11 @@ const services = [
     to: "/servicios/",
   },
   {
-    title: "Servicios",
+    title: "Nuestros Espacios",
     description:
       "Diseñados para el aprendizaje y la interacción.",
     img: "https://images.unsplash.com/photo-1766932901295-d4185660341b?w=1080",
-    to: "/servicios",
+    to: "/espacios",
   },
 ];
 

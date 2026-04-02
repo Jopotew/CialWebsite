@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home, Users, Briefcase, Newspaper, MessageCircle } from "lucide-react";
+import { Home, Users, Briefcase, Newspaper, MessageCircle, BracesIcon, BrainCircuit, Brain } from "lucide-react";
 import "./bottom_nav.css";
 
 const BottomNav = () => {
@@ -9,6 +9,7 @@ const BottomNav = () => {
     { to: "/",          icon: Home,          label: "Inicio"    },
     { to: "/equipo",    icon: Users,         label: "Equipo"    },
     { to: "/servicios", icon: Briefcase,     label: "Servicios" },
+    { to: "/espacios",  icon: Brain,     label: "Espacios"  },
     { to: "/novedades",  icon: Newspaper,     label: "Novedades"  },
     { to: "/contacto",  icon: MessageCircle, label: "Contacto"  },
   ];

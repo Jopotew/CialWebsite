@@ -43,13 +43,13 @@ function App() {
           <Route path="/servicios/talleres"                      element={<WorkshopsPage />} />
           <Route path="/servicios/talleres/familias"             element={<FamiliesPage />} />
           <Route path="/servicios/talleres/profesionales"        element={<ProfessionalsPage />} />
-          <Route path="/servicios/espacios"                      element={<EspaciosPage />} />
-          <Route path="/servicios/espacios/audiologia"           element={<AudiologiaPage />} />
-          <Route path="/servicios/espacios/fonoaudiologia"      element={<FonoaudiologiaPage />} />
-          <Route path="/servicios/espacios/psicopedagogia"      element={<PsicopedagogiaPage />} />
-          <Route path="/servicios/espacios/psicologia"          element={<PsicologiaPage />} />
-          <Route path="/servicios/espacios/psicomotricidad"     element={<PsicomotricidadPage />} />
-          <Route path="/servicios/espacios/rehabilitacion-auditiva"      element={<RehabilitacionPage />} />
+          <Route path="/espacios"                      element={<EspaciosPage />} />
+          <Route path="/espacios/audiologia"           element={<AudiologiaPage />} />
+          <Route path="/espacios/fonoaudiologia"      element={<FonoaudiologiaPage />} />
+          <Route path="/espacios/psicopedagogia"      element={<PsicopedagogiaPage />} />
+          <Route path="/espacios/psicologia"          element={<PsicologiaPage />} />
+          <Route path="/espacios/psicomotricidad"     element={<PsicomotricidadPage />} />
+          <Route path="/espacios/rehabilitacion-auditiva"      element={<RehabilitacionPage />} />
           <Route path="/contacto"                                element={<Contact />} />
         </Route>
       </Routes>
