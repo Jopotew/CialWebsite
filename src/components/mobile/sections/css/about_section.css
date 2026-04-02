@@ -1,14 +1,14 @@
 /* ===== SECCIÓN ===== */
 .about-section {
   padding: 2rem 1.5rem;
-  background-color: #f9fafb;   /* gray-50 */
+  background-color: #f9fafb;
 }
 
 /* ===== TÍTULO ===== */
 .about-section__title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #5927af;              /* purple-700 */
+  color: #5927af;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -16,10 +16,12 @@
 /* ===== PÁRRAFOS ===== */
 .about-section__text {
   font-size: 0.9rem;
-  color: #374151;              /* gray-700 */
+  color: #374151;
   line-height: 1.7;
   margin-bottom: 1rem;
   text-indent: 1.5rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-section__text:last-of-type {
@@ -29,10 +31,10 @@
 /* ===== BOTÓN ===== */
 .about-section__btn {
   display: block;
-  padding: 0.85rem 1.5rem;   
+  padding: 0.85rem 1.5rem;
   box-sizing: border-box;
 
-  background-color: #5927af;   
+  background-color: #5927af;
   color: #ffffff;
   font-size: 0.95rem;
   font-weight: 600;
@@ -47,7 +49,7 @@
 }
 
 .about-section__btn:hover {
-  background-color: #703bcc;   /* purple-700 */
+  background-color: #703bcc;
 }
 
 .about-section__btn:active {

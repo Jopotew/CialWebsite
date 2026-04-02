@@ -3,7 +3,6 @@
   min-height: 100vh;
   padding-bottom: 5rem;
 }
-
 .ipm-dt__back {
   display: inline-flex;
   align-items: center;
@@ -15,15 +14,12 @@
   text-decoration: none;
   transition: opacity 0.2s;
 }
-
 .ipm-dt__back:hover { opacity: 0.75; }
 
-/* Hero con título superpuesto */
 .ipm-dt__hero {
   position: relative;
   width: 100%;
 }
-
 .ipm-dt__hero-img {
   width: 100%;
   height: 420px;
@@ -31,7 +27,6 @@
   object-position: center;
   display: block;
 }
-
 .ipm-dt__hero-overlay {
   position: absolute;
   inset: 0;
@@ -40,7 +35,6 @@
   align-items: flex-end;
   padding: 2.5rem 4rem;
 }
-
 .ipm-dt__hero-title {
   font-size: 2.25rem;
   font-weight: 700;
@@ -50,22 +44,21 @@
   max-width: 700px;
 }
 
-/* Contenido */
 .ipm-dt__content {
   max-width: 860px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
-
 .ipm-dt__body {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 0rem;
 }
-
 .ipm-dt__paragraph {
   font-size: 1rem;
   color: #374151;
   line-height: 1.8;
   text-indent: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
