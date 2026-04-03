@@ -35,7 +35,6 @@
   color: #6b7280;
 }
 
-/* Grid 3 columnas */
 .espacios-dt__grid {
   max-width: 1100px;
   margin: 0 auto;
@@ -46,7 +45,8 @@
 }
 
 .espacio-dt-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   background: #ffffff;
   border-radius: 0.85rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
@@ -70,6 +70,9 @@
 
 .espacio-dt-card__body {
   padding: 1.1rem 1.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .espacio-dt-card__title {
@@ -84,13 +87,14 @@
   color: #6b7280;
   line-height: 1.6;
   margin-bottom: 0.75rem;
+  flex: 1;
 }
 
 .espacio-dt-card__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top:auto;
+  margin-top: auto;
 }
 
 .espacio-dt-card__cta {

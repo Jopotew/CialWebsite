@@ -6,7 +6,6 @@ const PsicopedagogiaDesktop = () => (
     title={spaces_texts.psicopedagogia.titulo}
     image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=1080"
     paragraphs={spaces_texts.psicopedagogia.parrafos}
-    backTo="/servicios/espacios"
   />
 );
 export default PsicopedagogiaDesktop;

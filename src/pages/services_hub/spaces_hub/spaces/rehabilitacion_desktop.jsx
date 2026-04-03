@@ -6,7 +6,7 @@ const RehabilitacionDesktop = () => (
     title={spaces_texts.rehabilitacionAuditiva.titulo}
     image="https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=1080"
     paragraphs={spaces_texts.rehabilitacionAuditiva.parrafos}
-    backTo="/servicios/espacios"
+    
   />
 );
 export default RehabilitacionDesktop;

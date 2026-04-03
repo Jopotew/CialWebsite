@@ -6,7 +6,7 @@ const FonoaudiologiaDesktop = () => (
     title={spaces_texts.fonoaudiologia.titulo}
     image="https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080"
     paragraphs={spaces_texts.fonoaudiologia.parrafos}
-    backTo="/servicios/espacios"
+   
   />
 );
 export default FonoaudiologiaDesktop;

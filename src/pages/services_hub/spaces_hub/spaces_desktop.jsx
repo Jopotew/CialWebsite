@@ -60,7 +60,7 @@ const EspaciosDesktop = () => {
               <h2 className="espacio-dt-card__title">{e.title}</h2>
               <p className="espacio-dt-card__desc">{e.description}</p>
               <div className="espacio-dt-card__footer">
-                <span className="espacio-dt-card__cta">Ver más</span>
+                <span className="espacio-dt-card__cta">Conocer más</span>
                 <ArrowRight size={16} className="espacio-dt-card__arrow" />
               </div>
             </div>

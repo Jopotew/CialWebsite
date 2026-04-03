@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
 import "./css/informative_page.css";
 
-const InformativePageMobile = ({ title, image, paragraphs = [], backTo = "/services/espacios" }) => {
+const InformativePageMobile = ({ title, image, paragraphs = [], backTo = "/espacios" }) => {
   return (
     <div className="ipm-page">
       <Link to={backTo} className="ipm-back">
