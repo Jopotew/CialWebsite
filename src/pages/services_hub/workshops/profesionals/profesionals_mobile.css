@@ -1,0 +1,147 @@
+/* ===== PÁGINA ===== */
+.wdetail-page {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+/* Botón volver */
+.wdetail-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  color: #5927af;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Hero */
+.wdetail-page__hero {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Contenido */
+.wdetail-page__content {
+  padding: 1.5rem 1.25rem;
+}
+
+.wdetail-page__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #5927af;
+  margin-bottom: 0.75rem;
+}
+
+.wdetail-page__intro {
+  font-size: 0.875rem;
+  color: #374151;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Card interna */
+.wdetail-card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+}
+
+.wdetail-card__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.wdetail-card__body {
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.wdetail-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.6rem;
+}
+
+.wdetail-card__text {
+  font-size: 0.85rem;
+  color: #374151;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.wdetail-card__btn {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #5927af;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.wdetail-card__btn:hover {
+  background-color: #6d28d9;
+}
+
+/* Beneficios */
+.wdetail-benefits {
+  background-color: #faf5ff;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+.wdetail-benefits__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5927af;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.wdetail-benefits__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.wdetail-benefits__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.wdetail-benefits__check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  background-color: #9333ea;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 50%;
+  margin-top: 1px;
+}

@@ -1,0 +1,175 @@
+.family-dt {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+.family-dt__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 2rem;
+  color: #5927af;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.family-dt__back:hover { opacity: 0.75; }
+
+/* Hero */
+.family-dt__hero {
+  position: relative;
+  width: 100%;
+}
+
+.family-dt__hero-img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.family-dt__hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.6) 100%);
+  display: flex;
+  align-items: flex-end;
+  padding: 2.5rem 4rem;
+}
+
+.family-dt__hero-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Content */
+.family-dt__content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.family-dt__intro {
+  font-size: 1.05rem;
+  color: #374151;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  text-align: center;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Dos columnas */
+.family-dt__two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* Card */
+.family-dt-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.family-dt-card__img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.family-dt-card__body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.family-dt-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.family-dt-card__text {
+  font-size: 0.9rem;
+  color: #374151;
+  line-height: 1.75;
+}
+
+.family-dt-card__btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #5927af;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.family-dt-card__btn:hover { background-color: #6d28d9; }
+
+/* Beneficios */
+.family-dt-benefits {
+  background-color: #faf5ff;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.family-dt-benefits__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5927af;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.family-dt-benefits__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.family-dt-benefits__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  font-size: 0.95rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.family-dt-benefits__check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  background-color: #9333ea;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 50%;
+  margin-top: 1px;
+}

@@ -1,0 +1,85 @@
+/* ===== CARD ===== */
+.image-card {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+/* ===== IMAGEN ===== */
+/* ===== IMAGEN ===== */
+.image-card__img {
+  width: 100%;
+
+  height: 250px; 
+  
+
+  object-fit: cover;
+  
+
+  object-position: center 20%; 
+  
+  display: block;
+}
+/* ===== CUERPO ===== */
+.image-card__body {
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+/* ===== TÍTULO ===== */
+.image-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5927af;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== DESCRIPCIÓN ===== */
+.image-card__text {
+  font-size: 0.875rem;
+  color: #374151;
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+/* ===== BOTÓN ===== */
+.image-card__btn {
+  display: block;
+  width: calc(100% - 1.25rem);
+  padding: 0.65rem;
+
+  background-color: #5927af;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 0.5rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.image-card__btn:hover {
+  background-color: #5927af;
+}
+
+.image-card__btn:active {
+  transform: scale(0.98);
+}
+
+
+/* ===== VARIANTE LINK (para noticias) ===== */
+.image-card__link {
+  display: inline-block;
+  color: #5927af;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  transition: opacity 0.2s ease;
+}
+
+.image-card__link:hover {
+  opacity: 0.75;
+}

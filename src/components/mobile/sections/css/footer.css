@@ -1,0 +1,127 @@
+/* ── Footer general ── */
+.footer-mb {
+  background-color: #faf5ff;
+  padding: 2rem 1.5rem 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Bloque logo + eslogan ── */
+.footer-mb__logo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer-mb__logo {
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 0.6rem;
+}
+
+.footer-mb__phrase {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #5927af;
+  margin: 0 0 0.3rem;
+}
+
+.footer-mb__address {
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* ── Divisor ── */
+.footer-mb__divider {
+  border: none;
+  border-top: 1px solid #e9d5ff;
+  margin-bottom: 1.5rem;
+}
+
+/* ── Bloque contacto ── */
+.footer-mb__contact {
+  margin-bottom: 1.5rem;
+}
+
+.footer-mb__contact-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5927af;
+  margin-bottom: 0.75rem;
+}
+
+.footer-mb__contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: #374151;
+  margin-bottom: 0.85rem;
+  transition: opacity 0.15s;
+}
+
+.footer-mb__contact-item:hover {
+  opacity: 0.7;
+}
+
+.footer-mb__contact-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.footer-mb__contact-icon--wpp {
+  background: #e9f7ee;
+}
+
+.footer-mb__contact-icon--mail {
+  background: #ede9ff;
+}
+
+.footer-mb__contact-icon--ig {
+  background: #faeef6;
+}
+
+.footer-mb__social-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.footer-mb__contact-label {
+  display: block;
+  font-size: 0.72rem;
+  color: #9ca3af;
+  margin-bottom: 1px;
+  letter-spacing: 0.03em;
+}
+
+.footer-mb__contact-value {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #5927af;
+}
+
+/* ── Pie ── */
+.footer-mb__bottom {
+  border-top: 1px solid #e9d5ff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.footer-mb__bottom p {
+  margin: 0;
+}

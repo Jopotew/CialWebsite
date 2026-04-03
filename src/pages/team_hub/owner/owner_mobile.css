@@ -1,0 +1,168 @@
+/* ===== PÁGINA ===== */
+.owner-page {
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+/* ===== BOTÓN VOLVER ===== */
+.owner-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 1.25rem;
+  color: #5927af;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ===== HEADER ===== */
+.owner-header {
+  position: relative;
+  width: 100%;
+}
+
+.owner-header__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.owner-header__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 30%, rgba(0,0,0,0.65) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem 1.5rem;
+}
+
+.owner-header__badge {
+  display: inline-block;
+  background-color: #9333ea;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+  width: fit-content;
+}
+
+.owner-header__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+.owner-header__title {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.5;
+}
+
+/* ===== QUOTE ===== */
+.owner-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1.5rem 0.5rem;
+  text-align: center;
+}
+
+.owner-quote__mark {
+  font-size: 2.5rem;
+  color: #d8b4fe;
+  line-height: 1;
+  font-family: Georgia, serif;
+}
+
+.owner-quote__text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #7c3aed;
+  font-style: italic;
+}
+
+/* ===== BIO ===== */
+.owner-bio {
+  padding: 1.25rem 1.5rem;
+  text-indent: 1.5rem;
+}
+
+.owner-bio__p {
+  font-size: 0.875rem;
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  text-align: justify; /* 👈 */
+}
+
+/* ===== GALERÍA ===== */
+.owner-gallery {
+  padding: 0 0 1.5rem;
+}
+
+.owner-gallery__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #7c3aed;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0 1.5rem;
+}
+
+.owner-gallery__slide {
+  outline: none;
+}
+
+.owner-gallery__img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.owner-gallery__caption {
+  padding: 0.65rem 1.25rem 0.25rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+  line-height: 1.5;
+  text-align: center;
+  min-height: 3rem;
+}
+
+/* Dots del slider en galería */
+.owner-gallery .slick-dots {
+  bottom: -4px;
+}
+
+.owner-gallery .slick-dots li button::before {
+  color: #9333ea;
+  font-size: 7px;
+}
+
+.owner-gallery .slick-dots li.slick-active button::before {
+  color: #7c3aed;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 480px) {
+  .owner-header__img {
+    height: 380px;
+  }
+
+  .owner-gallery__img {
+    height: 300px;
+  }
+}

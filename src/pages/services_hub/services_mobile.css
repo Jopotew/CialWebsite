@@ -1,0 +1,91 @@
+.workshops-page {
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Header */
+.workshops-page__header {
+  padding: 1.75rem 1.5rem 1rem;
+  background-color: #ffffff;
+}
+
+.workshops-page__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #5927af;
+  text-align: center;
+  margin-bottom: 0.35rem;
+}
+
+.workshops-page__subtitle {
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Lista */
+.workshops-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 0.5rem 1.25rem;
+}
+
+/* Card */
+.ws-card {
+  display: block;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ws-card:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.ws-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.ws-card__body {
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.ws-card__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #5927af;
+  margin-bottom: 0.5rem;
+}
+
+.ws-card__desc {
+  font-size: 0.85rem;
+  color: #374151;
+  line-height: 1.65;
+  margin-bottom: 0.85rem;
+}
+
+.ws-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ws-card__cta {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #5927af;
+}
+
+.ws-card__arrow {
+  color: #5927af;
+}

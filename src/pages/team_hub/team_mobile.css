@@ -1,0 +1,140 @@
+/* ===== PÁGINA ===== */
+.team-page {
+  padding: 1.5rem 1.25rem 6rem;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.team-page__title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #5927af;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ===== CARD OWNER ===== */
+.team-card--owner {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(124, 58, 237, 0.12);
+  overflow: hidden;
+  margin-bottom: 1.75rem;
+  text-decoration: none;
+  border: 2px solid #e9d5ff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.team-card--owner:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.1);
+}
+
+.team-card__img-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.team-card__img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.team-card__body {
+  padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.team-card__badge {
+  display: inline-block;
+  background-color: #f3e8ff;
+  color: #5927af;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+}
+
+.team-card__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.35rem;
+}
+
+.team-card__desc {
+  font-size: 0.8rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.team-card__cta {
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #5927af;
+  letter-spacing: 0.02em;
+}
+
+/* ===== GRILLA EQUIPO ===== */
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.team-grid__card {
+  background: #ffffff;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+
+.team-grid__img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.team-grid__body {
+  padding: 0.65rem 0.75rem 0.75rem;
+}
+
+.team-grid__name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.2rem;
+  line-height: 1.3;
+}
+
+.team-grid__desc {
+  font-size: 0.72rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* ===== RESPONSIVE tablet ===== */
+@media (min-width: 480px) {
+  .team-card__img {
+    height: 280px;
+  }
+
+  .team-grid__img {
+    height: 160px;
+  }
+
+  .team-grid__name {
+    font-size: 0.85rem;
+  }
+}
