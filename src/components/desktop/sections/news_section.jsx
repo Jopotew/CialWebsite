@@ -6,14 +6,14 @@ const news = [
   {
     title: "Últimas noticias",
     description:
-      "Mantente informado sobre las últimas noticias en el campo de la audiología y fonoaudiología. Tips y recomendaciones para el cuidado auditivo.",
+      "Un espacio para compartir experiencias, conocimientos y novedades que nos ayudan a crecer juntos.",
     img: mini6,
     to: "/novedades/noticias",
   },
   {
     title: "Nuestro Blog",
     description:
-      "Lee nuestros artículos sobre desarrollo del lenguaje, prevención auditiva y muchos temas más que te ayudarán a cuidar tu salud.",
+      "Ideas, herramientas y evidencia para acompañar el desarrollo del lenguaje, la audición y la comunicación en la vida cotidiana.",
     img: "https://images.unsplash.com/photo-1771408427146-09be9a1d4535?w=1080",
     to: "/novedades/blog",
   },

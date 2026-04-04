@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./css/team_section.css";
 import mini_all from "../../../assets/home/mini-team.jpg";
+import { home_text } from "../../../textos/home";
 
 const TeamSection = () => {
   return (
@@ -9,8 +10,10 @@ const TeamSection = () => {
         <div className="team-section-desktop__text">
           <h2 className="team-section-desktop__title">Nuestro Equipo</h2>
           <p className="team-section-desktop__p">
-            Profesionales altamente capacitados en diagnóstico y tratamiento
-            auditivo. Con más de 15 años acompañando a niños y adultos.
+            {home_text.nuestro_equipo.parrafos[0]}
+          </p>
+          <p className="team-section-desktop__p">
+            {home_text.nuestro_equipo.parrafos[1]}
           </p>
           <Link to="/equipo" className="team-section-desktop__btn">
             Conocer al equipo

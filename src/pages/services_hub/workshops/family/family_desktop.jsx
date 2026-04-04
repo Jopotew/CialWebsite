@@ -5,10 +5,10 @@ import miniatura1 from "../../../../assets/workshop/parents/lectura-en-casa.jpg"
 import miniatura2 from "../../../../assets/workshop/parents/talleres-padres.jpg";
 
 const benefits = [
-  "Aprende de profesionales experimentados en audiología y fonoaudiología",
-  "Comparte experiencias con otras familias en situaciones similares",
-  "Obtén herramientas prácticas para aplicar en el día a día",
-  "Accede a material didáctico y recursos exclusivos",
+  "Acompañamiento profesional especializado",
+  "Espacios de encuentro con otras familias",
+  "Estrategias concretas para aplicar en lo cotidiano",
+  "Recursos que potencian el desarrollo y la comunicación",
 ];
 
 const FamiliesDesktop = () => {
@@ -47,11 +47,11 @@ const FamiliesDesktop = () => {
                 Fortaleciendo el Aprendizaje en Casa
               </h2>
               <p className="family-dt-card__text">
-                El hogar es el primer y más importante espacio de aprendizaje.
-                Diversas investigaciones confirman que el éxito en los tratamientos
-                se potencia cuando las familias participan activamente,
-                convirtiéndose en los principales modelos para guiar a sus hijos en
-                el desarrollo de sus habilidades de comunicación, escucha y habla.
+                El hogar es el primer espacio de aprendizaje
+                Cuando las familias participan, el desarrollo se potencia.
+                Acompañamos con estrategias concretas para fortalecer la comunicación, la escucha y el lenguaje en el día a día.
+
+  
               </p>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSduT8Esk_kMgGiOj-AiX2NA_jVmL5aUfZHtj6paxGKKWtvpUg/viewform"

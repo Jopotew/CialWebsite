@@ -7,14 +7,14 @@ const secciones = [
     to: "/novedades/noticias",
     icon: Newspaper,
     title: "Noticias",
-    description: "Novedades del mundo de la audiología y fonoaudiología. Artículos de diarios y contenido audiovisual seleccionado.",
+    description: "Un espacio para compartir experiencias, conocimientos y novedades que nos ayudan a crecer juntos.",
     img: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1080",
   },
   {
     to: "/novedades/blog",
     icon: BookOpen,
     title: "Blog",
-    description: "Artículos escritos por nuestro equipo de profesionales sobre temas de salud auditiva, lenguaje y comunicación.",
+    description: "Ideas, herramientas y evidencia para acompañar el desarrollo del lenguaje, la audición y la comunicación en la vida cotidiana.",
     img: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1080",
   },
 ];

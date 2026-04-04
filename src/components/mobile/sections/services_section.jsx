@@ -6,7 +6,7 @@ const services = [
   {
     title: "Talleres",
     description:
-      "Ofrecemos talleres grupales de estimulación del lenguaje y desarrollo de habilidades comunicativas.",
+      "Generamos espacios de encuentro, diálogo y aprendizaje para familias y profesionales. Creemos en la construcción conjunta como motor del desarrollo.",
     img: mini5,
     to: "/servicios/",
   },

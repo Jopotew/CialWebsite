@@ -5,7 +5,7 @@ import "./spaces_desktop.css";
 const espacios = [
   {
     title: "Audiología",
-    description: "Estudios completos de audición en niños y adultos.",
+    description: "Evaluación, diagnóstico, equipamiento y seguimiento de la salud auditiva en todas las edades. El acceso auditivo oportuno es clave para el desarrollo del lenguaje, el aprendizaje y la participación plena.",
     img: "https://images.unsplash.com/photo-1692160756327-f0481e950b28?w=1080",
     to: "/espacios/audiologia",
   },
@@ -35,7 +35,7 @@ const espacios = [
   },
   {
     title: "Rehabilitación Auditiva",
-    description: "Rehabilitación especializada para personas con hipoacusia.",
+    description: "Acompañamos el desarrollo auditivo y comunicativo a través de intervenciones personalizadas centradas en la familia. Potenciamos el acceso al sonido para favorecer el lenguaje, la comunicación y la participación en la vida cotidiana.",
     img: "https://images.unsplash.com/photo-1588776814546-daab30f310ce?w=1080",
     to: "/espacios/rehabilitacion-auditiva",
   },

@@ -14,7 +14,7 @@ const sections = [
   {
     title: "Talleres para Profesionales",
     description:
-      "Capacitaciones y actualizaciones para profesionales del área educativa y social. Formación continua en las últimas técnicas y metodologías.",
+      "Espacios de encuentro, aprendizaje y acompañamiento para familias. Brindamos herramientas prácticas para potenciar la comunicación, el lenguaje y el desarrollo en la vida cotidiana.",
     img: miniatura1,
     to: "/servicios/talleres/profesionales",
   },
