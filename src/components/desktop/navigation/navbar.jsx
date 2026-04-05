@@ -20,7 +20,7 @@ const Navbar = () => {
       ]
     },
     { 
-      label: "Espacios", 
+      label: "Areas", 
       to: "/espacios",
       submenu: [
         { label: "Audiología", to: "/espacios/audiologia" },

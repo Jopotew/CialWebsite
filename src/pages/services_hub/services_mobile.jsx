@@ -5,19 +5,19 @@ import miniatura1 from "../../assets/workshop/profesionals/miniatura1.jpg";
 
 const sections = [
   {
-    title: "Talleres para Familias",
-    description:
-      "Espacios diseñados para acompañar a familias en la crianza y educación de sus hijos. Aprende estrategias prácticas y comparte experiencias.",
-    img: "https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080",
-    to: "/servicios/talleres/familias",
-  },
-  {
-    title: "Talleres para Profesionales",
-    description:
-      "Espacios de encuentro, aprendizaje y acompañamiento para familias. Brindamos herramientas prácticas para potenciar la comunicación, el lenguaje y el desarrollo en la vida cotidiana.",
-    img: miniatura1,
-    to: "/servicios/talleres/profesionales",
-  },
+      title: "Talleres para Familias",
+      description:
+        "Acompañamos a las familias en el desarrollo de la comunicación y el aprendizaje. Brindamos herramientas prácticas para aplicar en la vida cotidiana.",
+      img: "https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080",
+      to: "/servicios/talleres/familias",
+    },
+    {
+      title: "Talleres para Profesionales",
+      description:
+        "Fortalecemos la práctica profesional a través del aprendizaje y el intercambio. Trabajamos con casos reales, evidencia y estrategias aplicables.",
+      img: miniatura1,
+      to: "/servicios/talleres/profesionales",
+    },
   {
     title: "Asesorías y Supervisiones",
     description:

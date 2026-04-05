@@ -1,6 +1,8 @@
 import ImageCard from "../ui/reusables/image_card";
 import "./css/services_section.css";
 import mini5 from "../../../assets/home/mini5.jpg";
+import service1 from "../../../assets/home/service3.jpg";
+import service2 from "../../../assets/home/service2.jpg";
 
 const services = [
   {
@@ -13,15 +15,15 @@ const services = [
   {
     title: "Asesorias y Supervisiones",
     description:
-      "Tratamiento y terapia del lenguaje y la comunicación. Trabajamos con niños y adultos en problemas de habla, lenguaje y deglución.",
-    img: "https://images.unsplash.com/photo-1610890912938-ddcf5f9d4256?w=1080",
+      "Pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad",
+    img: service1,
     to: "/servicios/",
   },
   {
-    title: "Nuestros espaciosEspacios",
+    title: "Áreas de trabajo",
     description:
-      "Diseñados para el aprendizaje y la interacción.",
-    img: "https://images.unsplash.com/photo-1766932901295-d4185660341b?w=1080",
+      "Integramos distintas disciplinas para acompañar cada trayectoria desde una mirada integral, en alianza con cada familia.",
+    img: service2,
     to: "/espacios",
   },
 ];

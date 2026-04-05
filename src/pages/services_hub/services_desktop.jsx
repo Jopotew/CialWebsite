@@ -7,21 +7,21 @@ const sections = [
   {
     title: "Talleres para Familias",
     description:
-      "Espacios diseñados para acompañar a familias en la crianza y educación de sus hijos. Aprende estrategias prácticas y comparte experiencias.",
+      "Acompañamos a las familias en el desarrollo de la comunicación y el aprendizaje. Brindamos herramientas prácticas para aplicar en la vida cotidiana.",
     img: "https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080",
     to: "/servicios/talleres/familias",
   },
   {
     title: "Talleres para Profesionales",
     description:
-      "Espacios de encuentro, aprendizaje y acompañamiento para familias. Brindamos herramientas prácticas para potenciar la comunicación, el lenguaje y el desarrollo en la vida cotidiana.",
+      "Fortalecemos la práctica profesional a través del aprendizaje y el intercambio. Trabajamos con casos reales, evidencia y estrategias aplicables.",
     img: miniatura1,
     to: "/servicios/talleres/profesionales",
   },
   {
     title: "Asesorías y Supervisiones",
     description:
-      "Un espacio pensado para impulsar tu desarrollo profesional, brindando una formación integral y de alta calidad",
+      "Profundizamos el análisis clínico y la toma de decisiones profesionales. Acompañamos con mirada integral, articulando evidencia, experiencia y contexto.",
     img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
     to: "https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform?pli=1",
     target: "_blank",
