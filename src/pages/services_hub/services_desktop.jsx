@@ -2,13 +2,16 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import "./services_desktop.css";
 import miniatura1 from "../../assets/workshop/profesionals/miniatura1.jpg";
+import img1 from "../../assets/workshop/1.png";
+import img2 from "../../assets/workshop/2.png";
+import img3 from "../../assets/workshop/3.png";
 
 const sections = [
   {
     title: "Talleres para Familias",
     description:
       "Acompañamos a las familias en el desarrollo de la comunicación y el aprendizaje. Brindamos herramientas prácticas para aplicar en la vida cotidiana.",
-    img: "https://images.unsplash.com/photo-1596289052396-b9525fe23d6d?w=1080",
+    img: img1,
     to: "/servicios/talleres/familias",
   },
   {
@@ -22,7 +25,7 @@ const sections = [
     title: "Asesorías y Supervisiones",
     description:
       "Profundizamos el análisis clínico y la toma de decisiones profesionales. Acompañamos con mirada integral, articulando evidencia, experiencia y contexto.",
-    img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
+    img: img2,
     to: "https://docs.google.com/forms/d/e/1FAIpQLSfL975vaDGtNxWU2XYGjDp4tTujKQm-Mq9l-pWwsiCpmVqh_g/viewform?pli=1",
     target: "_blank",
   },
@@ -30,7 +33,7 @@ const sections = [
     title: "Curso CAA y (Re)Habilitación Auditiva",
     description:
       "El rol del terapeuta en rehabilitación auditiva, frente a trayectorias comunicativas diversas en personas con diagnóstico de hipoacusia, exige ampliar el razonamiento clínico, integrar apoyos multimodales y sostener intervenciones individualizadas, dinámicas y contextualizadas en el entorno familiar y educativo.",
-    img: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=1080",
+    img: img3,
     to: "https://docs.google.com/forms/d/e/1FAIpQLSfVbB825ipmpOmjfCVWZkuHlc0IexbQW5RARYlcfdyFv1Uuqg/viewform?fbclid=PAT01DUAQ72ZBleHRuA2FlbQIxMABzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafDBszhA6BlFxtb0DRe9mh3aO3tY0BN4yM5goDQ-hwhQyfWcyMaYVD67YqTpg_aem___QK5WxqwoaoFmygOav4Pw",
     target: "_blank",
   },
